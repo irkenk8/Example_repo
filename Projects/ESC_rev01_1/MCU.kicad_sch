@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a23e4554-f22a-4120-8330-9c93b940763e")
+	(uuid "646809be-40c6-4086-b641-ca1a948e6474")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -3967,6 +3967,8 @@
 		(effects
 			(font
 				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
 			)
 			(justify left)
 		)
