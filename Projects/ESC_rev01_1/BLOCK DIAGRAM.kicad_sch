@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "63f3d0eb-99d3-4dee-bea2-6a4982a67e49")
+	(uuid "eaba1d12-0fb0-4e42-a3ac-4adc58bac6d7")
 	(paper "A4")
 	(lib_symbols)
 	(text "MOSFET DRIVER"
