@@ -13,20 +13,134 @@
 		(comment 4 "Irina Kenko")
 	)
 	(lib_symbols)
+	(text "REVISION: 01_1"
+		(exclude_from_sim no)
+		(at 21.844 28.194 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "19f2a955-246e-4d63-8685-07042f7881e9")
+	)
+	(text "VARIANT: NO VARIATION"
+		(exclude_from_sim no)
+		(at 21.844 35.56 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "376a4223-acfb-4000-aad2-99f2b5cd8899")
+	)
+	(text "2     INPUT PROTECTION"
+		(exclude_from_sim no)
+		(at 34.29 62.484 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "6e54ff77-bc29-4cbe-9d01-9616dcecd6a4")
+	)
+	(text "3     STEP-DOWN"
+		(exclude_from_sim no)
+		(at 34.798 70.866 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "7acdd89c-b20b-4119-906e-b5b50a12f0c3")
+	)
+	(text "1     BLOCK DIAGRAM"
+		(exclude_from_sim no)
+		(at 34.036 54.102 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "90da488c-6181-41c2-a725-8c4e2ae253d3")
+	)
+	(text "PAGE#   INDEX"
+		(exclude_from_sim no)
+		(at 22.098 45.72 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "c8038c0c-cbcc-407c-97b4-d1ac210f7e03")
+	)
 	(text "DF_ESC_rev01_1"
 		(exclude_from_sim no)
 		(at 123.952 18.542 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 5.5 5.5)
+				(thickness 1.016)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "e4bc4d1f-109f-4e10-a940-42e762586f85")
 	)
+	(polyline
+		(pts
+			(xy 17.78 157.48) (xy 101.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc2a838-ebf1-496c-8aee-6182f9e52f18")
+	)
+	(polyline
+		(pts
+			(xy 17.78 20.32) (xy 101.6 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5653c055-76ce-4b88-ae05-ccf5976ef980")
+	)
+	(polyline
+		(pts
+			(xy 17.78 20.32) (xy 17.78 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dfdcb6-ef16-4f56-85dc-bb9cf40c0317")
+	)
+	(polyline
+		(pts
+			(xy 101.6 157.48) (xy 101.6 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b968b4-ba26-4921-92f8-7c8f45e60861")
+	)
 	(sheet
-		(at 82.55 87.63)
-		(size 17.78 16.51)
+		(at 151.13 81.28)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -40,8 +154,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "19fe9d69-60cb-446d-a292-f9b9e1eef2a9")
-		(property "Sheetname" "MOSFETs"
-			(at 82.55 86.9184 0)
+		(property "Sheetname" "[06] - MOSFETs"
+			(at 151.13 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,49 +164,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETs.kicad_sch"
-			(at 82.55 104.7246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ESC_rev01_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 133.35 87.63)
-		(size 17.78 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "618596fe-a8ac-4c5d-9ee0-9d89b203e948")
-		(property "Sheetname" "FILTERS"
-			(at 133.35 86.9184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FILTERS.kicad_sch"
-			(at 133.35 104.7246 0)
+			(at 151.13 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,8 +181,8 @@
 		)
 	)
 	(sheet
-		(at 55.88 87.63)
-		(size 19.05 16.51)
+		(at 222.25 81.28)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -123,9 +195,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "6dc0778c-071b-4174-a187-40a7d7e16416")
-		(property "Sheetname" "MOSFET DRIVER"
-			(at 55.88 86.9184 0)
+		(uuid "618596fe-a8ac-4c5d-9ee0-9d89b203e948")
+		(property "Sheetname" "[08] - FILTERS"
+			(at 222.25 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,50 +205,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MOSFET DRIVER.kicad_sch"
-			(at 55.88 104.7246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ESC_rev01_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 55.88 62.23)
-		(size 19.05 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a8bd54e1-9d43-4751-8541-df4bcff8dd63")
-		(property "Sheetname" "BLOCK DIAGRAM"
-			(at 55.88 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BLOCK DIAGRAM.kicad_sch"
-			(at 55.88 80.5946 0)
+		(property "Sheetfile" "FILTERS.kicad_sch"
+			(at 222.25 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,8 +223,8 @@
 		)
 	)
 	(sheet
-		(at 29.21 62.23)
-		(size 19.05 17.78)
+		(at 151.13 45.72)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -207,9 +237,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "aa28b6a5-844a-4eb8-af03-0b1ead627e2c")
-		(property "Sheetname" "OVERVIEW"
-			(at 29.21 61.5184 0)
+		(uuid "62292eba-a192-4583-8aea-d56ef9bebcec")
+		(property "Sheetname" "[02] - INPUT PROTECTION"
+			(at 151.13 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,50 +247,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "OVERVIEW.kicad_sch"
-			(at 29.21 80.5946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ESC_rev01_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 29.21 87.63)
-		(size 19.05 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "aabf2ea0-250c-4a27-ad08-cb36e1d2af93")
-		(property "Sheetname" "MCU"
-			(at 29.21 86.9184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MCU.kicad_sch"
-			(at 29.21 104.7246 0)
+		(property "Sheetfile" "INPUT PROTECTION.kicad_sch"
+			(at 151.13 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,8 +265,8 @@
 		)
 	)
 	(sheet
-		(at 109.22 87.63)
-		(size 17.78 16.51)
+		(at 115.57 81.28)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -291,9 +279,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e32c040b-8a9b-40e1-ab88-651266d42ee1")
-		(property "Sheetname" "CAN"
-			(at 109.22 86.9184 0)
+		(uuid "6dc0778c-071b-4174-a187-40a7d7e16416")
+		(property "Sheetname" "[05] - MOSFET DRIVER"
+			(at 115.57 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,8 +289,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN.kicad_sch"
-			(at 109.22 104.7246 0)
+		(property "Sheetfile" "MOSFET DRIVER.kicad_sch"
+			(at 115.57 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,8 +307,218 @@
 		)
 	)
 	(sheet
-		(at 29.21 113.03)
-		(size 19.05 17.78)
+		(at 115.57 45.72)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8bd54e1-9d43-4751-8541-df4bcff8dd63")
+		(property "Sheetname" "[01] - BLOCK DIAGRAM"
+			(at 115.57 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLOCK DIAGRAM.kicad_sch"
+			(at 115.57 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 116.84)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa28b6a5-844a-4eb8-af03-0b1ead627e2c")
+		(property "Sheetname" "[09] - USB"
+			(at 115.57 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OVERVIEW.kicad_sch"
+			(at 115.57 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 45.72)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aabf2ea0-250c-4a27-ad08-cb36e1d2af93")
+		(property "Sheetname" "[04] - MCU"
+			(at 222.25 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 222.25 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 45.72)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c73e4030-1bb6-4559-8c3c-f52e48758511")
+		(property "Sheetname" "[03] - STEP-DOWN"
+			(at 186.69 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STEP-DOWN.kicad_sch"
+			(at 186.69 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 81.28)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e32c040b-8a9b-40e1-ab88-651266d42ee1")
+		(property "Sheetname" "[07] - CAN"
+			(at 186.69 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 186.69 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 116.84)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -334,8 +532,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e")
-		(property "Sheetname" "MECHANICAL"
-			(at 29.21 112.3184 0)
+		(property "Sheetname" "[10] - MECHANICAL"
+			(at 151.13 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -344,7 +542,7 @@
 			)
 		)
 		(property "Sheetfile" "MECHANICAL.kicad_sch"
-			(at 29.21 131.3946 0)
+			(at 151.13 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,7 +553,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "7")
+					(page "10")
 				)
 			)
 		)
