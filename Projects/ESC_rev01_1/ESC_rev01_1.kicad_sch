@@ -25,6 +25,30 @@
 		)
 		(uuid "19f2a955-246e-4d63-8685-07042f7881e9")
 	)
+	(text "5     MOSFET DRIVER"
+		(exclude_from_sim no)
+		(at 34.29 86.36 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "1a533ea5-8d75-40a0-8772-bc3310ffeda1")
+	)
+	(text "6     MOSFETs"
+		(exclude_from_sim no)
+		(at 34.29 94.488 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "327771ec-f968-439b-84d8-8a9a3508ba54")
+	)
 	(text "VARIANT: NO VARIATION"
 		(exclude_from_sim no)
 		(at 21.844 35.56 0)
@@ -37,9 +61,33 @@
 		)
 		(uuid "376a4223-acfb-4000-aad2-99f2b5cd8899")
 	)
+	(text "8     FILTERs"
+		(exclude_from_sim no)
+		(at 34.544 110.998 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "40694898-7af7-467c-97a2-da791a1ad7fb")
+	)
+	(text "10     MECHANICAL"
+		(exclude_from_sim no)
+		(at 32.258 126.746 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "5a263060-1830-47fa-9d6a-97f090f5c1ff")
+	)
 	(text "2     INPUT PROTECTION"
 		(exclude_from_sim no)
-		(at 34.29 62.484 0)
+		(at 34.036 62.23 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -51,7 +99,7 @@
 	)
 	(text "3     STEP-DOWN"
 		(exclude_from_sim no)
-		(at 34.798 70.866 0)
+		(at 34.036 70.358 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -72,6 +120,30 @@
 			(justify left)
 		)
 		(uuid "90da488c-6181-41c2-a725-8c4e2ae253d3")
+	)
+	(text "7     CAN"
+		(exclude_from_sim no)
+		(at 34.29 103.124 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "a7d2c788-f6bf-4ee7-bf48-e935df47c402")
+	)
+	(text "4     MCU"
+		(exclude_from_sim no)
+		(at 34.29 78.232 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "b65bb4d2-d2b3-40c2-85f6-0d6f9cf42d8b")
 	)
 	(text "PAGE#   INDEX"
 		(exclude_from_sim no)
@@ -97,6 +169,18 @@
 			(justify left)
 		)
 		(uuid "e4bc4d1f-109f-4e10-a940-42e762586f85")
+	)
+	(text "9     USB"
+		(exclude_from_sim no)
+		(at 34.544 119.126 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.5625)
+			)
+			(justify left)
+		)
+		(uuid "efd4438e-7082-4d25-a300-b4448c867e83")
 	)
 	(polyline
 		(pts
