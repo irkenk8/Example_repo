@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
-		(at 0.000025 4.999771 0)
+		(at 0 5 0)
 		(layer "F.Fab")
 		(uuid "eb793a53-7cc7-4096-b707-051fb36426c6")
 		(effects
@@ -105,8 +105,8 @@
 		(layer "F.Fab")
 		(uuid "6ecab30d-b80d-4107-878e-95272fd60fad")
 	)
-	(fp_text user "REF**"
-		(at 0.000025 6.999771 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
 		(layer "F.Fab")
 		(uuid "e4341175-3512-495c-b1f2-6ac42c4425c4")
 		(effects
@@ -172,7 +172,6 @@
 	)
 	(embedded_fonts no)
 	(model "packages3d/PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL.step"
-		(opacity 0.6000)
 		(offset
 			(xyz 0.0000253999996185 -0.0000253999996185 0)
 		)

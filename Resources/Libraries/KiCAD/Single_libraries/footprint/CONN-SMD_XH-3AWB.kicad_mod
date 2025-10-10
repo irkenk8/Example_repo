@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "CONN-SMD_XH-3AWB"
-		(at -0.000025 5.283211 0)
+		(at 0 -2 0)
 		(layer "F.Fab")
 		(uuid "bc5288da-592b-4f31-ae60-75fe690d81d1")
 		(effects
@@ -133,8 +133,8 @@
 		(layer "F.SilkS")
 		(uuid "fb5440b4-6849-4c08-9ec3-669af887a4ba")
 	)
-	(fp_text user "REF**"
-		(at -0.000025 7.283211 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4 0)
 		(layer "F.Fab")
 		(uuid "485b210d-9783-43ad-b331-2a0df685101e")
 		(effects

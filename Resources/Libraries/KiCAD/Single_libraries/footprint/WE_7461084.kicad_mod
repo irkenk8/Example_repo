@@ -5,14 +5,14 @@
 	(layer "F.Cu")
 	(descr "7461084")
 	(tags "Connector")
-	(property "Reference" "J**"
-		(at 3.81 -3.81 0)
+	(property "Reference" "REF**"
+		(at 3.81 -10 0)
 		(layer "F.SilkS")
 		(uuid "ccb2f177-9db3-40be-9c54-fb963d876256")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1.5 1.5)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -54,20 +54,20 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.19 -6.61)
-		(end -1.19 -1.61)
+		(start -1.44 -6.61)
+		(end -1.44 -1.61)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "65ce5aa0-fd5e-4ada-9835-385c0588b9b1")
 	)
 	(fp_line
-		(start 8.81 -6.41)
-		(end 8.81 -1.21)
+		(start 9.06 -6.41)
+		(end 9.06 -1.21)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -170,8 +170,8 @@
 		(uuid "5fefd9ea-132f-4b98-b75b-5334ea41e213")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

@@ -338,9 +338,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 227.33 54.61)
+		(end 241.3 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 90a9636f-b3ae-47cf-9a16-99b859cba1b4)
+	)
 	(text "MOUNTING HOLES"
 		(exclude_from_sim no)
-		(at 140.97 66.294 0)
+		(at 144.78 66.294 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -366,7 +378,7 @@
 	)
 	(text "FIT A ZERO OHM LINK,\nCAP OR RESISTOR"
 		(exclude_from_sim no)
-		(at 138.176 95.758 0)
+		(at 141.986 95.758 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -389,6 +401,43 @@
 			(justify left)
 		)
 		(uuid "43bb5532-74b0-4b8f-aaaa-edc6cc0bf202")
+	)
+	(text "- THERMISTOR MOVED TO LOWER LEG OF THE ADC PIN\n- BOOT PIN PULLED-DOWN TO GND\n- CHANGED BULCK CAPACITANCE\n- CHANGE PHASE SENSE RRESISTORS\n- CHANGED NETS SENSE PHASES TO DIFFERENTIAL PAIRS\n- INVERTED TX AND RX CONNECTOR PI"
+		(exclude_from_sim no)
+		(at 212.09 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "579ad5f0-9c81-40e1-80f6-b70304614b5d")
+	)
+	(text "MODIFICATION FROM VESC 4.11:"
+		(exclude_from_sim no)
+		(at 212.09 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "71831502-00db-41fa-92e5-0d55faade78c")
+	)
+	(text "PCB"
+		(exclude_from_sim no)
+		(at 232.156 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b10ee537-c3d1-4f08-ab00-a19f46df46c9")
 	)
 	(text "LABELS"
 		(exclude_from_sim no)
@@ -427,7 +476,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 81.28) (xy 149.86 91.44)
+			(xy 153.67 81.28) (xy 153.67 91.44)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +486,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 91.44) (xy 137.16 99.06)
+			(xy 140.97 91.44) (xy 140.97 99.06)
 		)
 		(stroke
 			(width 0)
@@ -467,7 +516,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 124.46 87.63)
+			(xy 128.27 85.09) (xy 128.27 87.63)
 		)
 		(stroke
 			(width 0)
@@ -487,7 +536,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 115.57) (xy 124.46 118.11)
+			(xy 128.27 115.57) (xy 128.27 118.11)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +546,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 63.5) (xy 193.04 63.5)
+			(xy 120.65 63.5) (xy 196.85 63.5)
 		)
 		(stroke
 			(width 0)
@@ -507,7 +556,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 91.44) (xy 149.86 91.44)
+			(xy 166.37 91.44) (xy 153.67 91.44)
 		)
 		(stroke
 			(width 0)
@@ -517,7 +566,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 115.57) (xy 170.18 118.11)
+			(xy 173.99 115.57) (xy 173.99 118.11)
 		)
 		(stroke
 			(width 0)
@@ -527,7 +576,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 91.44) (xy 137.16 91.44)
+			(xy 153.67 91.44) (xy 140.97 91.44)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +596,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 81.28) (xy 167.64 81.28)
+			(xy 135.89 81.28) (xy 171.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -577,7 +626,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 111.76) (xy 167.64 111.76)
+			(xy 135.89 111.76) (xy 171.45 111.76)
 		)
 		(stroke
 			(width 0)
@@ -587,7 +636,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 170.18 87.63)
+			(xy 173.99 85.09) (xy 173.99 87.63)
 		)
 		(stroke
 			(width 0)
@@ -607,7 +656,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 63.5) (xy 193.04 127)
+			(xy 196.85 63.5) (xy 196.85 127)
 		)
 		(stroke
 			(width 0)
@@ -617,7 +666,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 106.68) (xy 170.18 107.95)
+			(xy 173.99 106.68) (xy 173.99 107.95)
 		)
 		(stroke
 			(width 0)
@@ -627,7 +676,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 124.46 107.95)
+			(xy 128.27 106.68) (xy 128.27 107.95)
 		)
 		(stroke
 			(width 0)
@@ -637,7 +686,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 127) (xy 116.84 127)
+			(xy 196.85 127) (xy 120.65 127)
 		)
 		(stroke
 			(width 0)
@@ -647,7 +696,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 99.06) (xy 149.86 111.76)
+			(xy 153.67 99.06) (xy 153.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -667,7 +716,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 127) (xy 116.84 63.5)
+			(xy 120.65 127) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -677,7 +726,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 99.06) (xy 162.56 99.06)
+			(xy 140.97 99.06) (xy 166.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -687,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 76.2) (xy 124.46 77.47)
+			(xy 128.27 76.2) (xy 128.27 77.47)
 		)
 		(stroke
 			(width 0)
@@ -707,7 +756,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 99.06) (xy 162.56 91.44)
+			(xy 166.37 99.06) (xy 166.37 91.44)
 		)
 		(stroke
 			(width 0)
@@ -727,7 +776,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 76.2) (xy 170.18 77.47)
+			(xy 173.99 76.2) (xy 173.99 77.47)
 		)
 		(stroke
 			(width 0)
@@ -747,7 +796,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 111.76 0)
+		(at 128.27 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -755,8 +804,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04af5768-a64b-42c0-9b8e-fcb241071ffb")
-		(property "Reference" "R64"
-			(at 127 110.4899 0)
+		(property "Reference" "R61"
+			(at 130.81 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +814,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 127 113.0299 0)
+			(at 130.81 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +823,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 122.682 111.76 90)
+			(at 126.492 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 111.76 0)
+			(at 128.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,7 +841,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 111.76 0)
+			(at 128.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,7 +858,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "R64")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -817,7 +866,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 170.18 104.14 0)
+		(at 173.99 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -826,7 +875,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a7e3737-82a0-47bf-8886-8c16e19f0e99")
 		(property "Reference" "H4"
-			(at 172.72 101.5999 0)
+			(at 176.53 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +884,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 172.72 104.1399 0)
+			(at 176.53 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,7 +893,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 170.18 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +902,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +911,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 170.18 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +933,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 81.28 0)
+		(at 128.27 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -892,8 +941,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f0d6fdc-54f4-4193-860a-269d8b419a01")
-		(property "Reference" "R63"
-			(at 127 80.0099 0)
+		(property "Reference" "R60"
+			(at 130.81 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +951,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 127 82.5499 0)
+			(at 130.81 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,7 +960,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 122.682 81.28 90)
+			(at 126.492 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,7 +969,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 81.28 0)
+			(at 128.27 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +978,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 81.28 0)
+			(at 128.27 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +995,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "R63")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -954,7 +1003,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 111.76 0)
+		(at 173.99 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -962,8 +1011,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c87c3b-ed33-416d-9641-809237da6cb9")
-		(property "Reference" "R66"
-			(at 172.72 110.4899 0)
+		(property "Reference" "R63"
+			(at 176.53 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +1021,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 172.72 113.0299 0)
+			(at 176.53 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +1030,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.402 111.76 90)
+			(at 172.212 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1039,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 111.76 0)
+			(at 173.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +1048,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 111.76 0)
+			(at 173.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +1065,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "R66")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -1024,7 +1073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 87.63 0)
+		(at 128.27 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1032,8 +1081,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d66c97-68c0-4556-b4d2-dcb033d89e25")
-		(property "Reference" "#PWR0103"
-			(at 124.46 93.98 0)
+		(property "Reference" "#PWR0100"
+			(at 128.27 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 92.71 0)
+			(at 128.27 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 87.63 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 87.63 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 87.63 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1131,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "#PWR0103")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -1090,7 +1139,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 124.46 73.66 0)
+		(at 128.27 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1099,7 +1148,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e4563f7-2347-4018-a26f-afa602b46f42")
 		(property "Reference" "H1"
-			(at 127 71.1199 0)
+			(at 130.81 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1157,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 127 73.6599 0)
+			(at 130.81 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1166,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 124.46 73.66 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 73.66 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1184,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 124.46 73.66 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,7 +1206,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 81.28 0)
+		(at 173.99 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1165,8 +1214,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "780c87b5-7f1d-4b62-a702-8ca1a7940fa9")
-		(property "Reference" "R65"
-			(at 172.72 80.0099 0)
+		(property "Reference" "R62"
+			(at 176.53 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1224,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 172.72 82.5499 0)
+			(at 176.53 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,7 +1233,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.402 81.28 90)
+			(at 172.212 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 81.28 0)
+			(at 173.99 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1251,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 81.28 0)
+			(at 173.99 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1268,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "R65")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -1227,7 +1276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 87.63 0)
+		(at 173.99 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1235,8 +1284,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f67813b-cb82-4b39-9cbe-513685e46dba")
-		(property "Reference" "#PWR0105"
-			(at 170.18 93.98 0)
+		(property "Reference" "#PWR0102"
+			(at 173.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 92.71 0)
+			(at 173.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 87.63 0)
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 87.63 0)
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 87.63 0)
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,7 +1334,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "#PWR0105")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1293,7 +1342,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 170.18 73.66 0)
+		(at 173.99 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1302,7 +1351,7 @@
 		(fields_autoplaced yes)
 		(uuid "b36c65f7-ecad-4ab9-b893-988dec4009e7")
 		(property "Reference" "H3"
-			(at 172.72 71.1199 0)
+			(at 176.53 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1360,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 172.72 73.6599 0)
+			(at 176.53 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1369,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 170.18 73.66 0)
+			(at 173.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 73.66 0)
+			(at 173.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1387,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 170.18 73.66 0)
+			(at 173.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1409,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 118.11 0)
+		(at 173.99 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1368,8 +1417,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0deae39-b73d-4fb1-9977-235acec7c433")
-		(property "Reference" "#PWR0106"
-			(at 170.18 124.46 0)
+		(property "Reference" "#PWR0103"
+			(at 173.99 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,7 +1435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 118.11 0)
+			(at 173.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 118.11 0)
+			(at 173.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 118.11 0)
+			(at 173.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1467,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "#PWR0106")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -1426,7 +1475,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 124.46 104.14 0)
+		(at 128.27 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1435,7 +1484,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7d8cdbd-f530-4ce3-9e16-4c8ab90482f3")
 		(property "Reference" "H2"
-			(at 127 101.5999 0)
+			(at 130.81 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1493,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 127 104.1399 0)
+			(at 130.81 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1502,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 124.46 104.14 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 104.14 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1520,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 124.46 104.14 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,7 +1542,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 118.11 0)
+		(at 128.27 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1501,8 +1550,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc60e000-75dd-4c16-9258-8d5ec12b8a30")
-		(property "Reference" "#PWR0104"
-			(at 124.46 124.46 0)
+		(property "Reference" "#PWR0101"
+			(at 128.27 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1560,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 123.19 0)
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 118.11 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 118.11 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 118.11 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +1600,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "#PWR0104")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

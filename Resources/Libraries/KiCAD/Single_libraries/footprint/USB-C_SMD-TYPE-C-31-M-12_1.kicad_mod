@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "USB-C_SMD-TYPE-C-31-M-12_1"
-		(at 0.001016 7.094107 0)
+		(at 0 2 0)
 		(layer "F.Fab")
 		(uuid "27f4089f-6e71-4fdc-bf02-68ff2bd17ac8")
 		(effects
@@ -135,8 +135,8 @@
 		(layer "F.Fab")
 		(uuid "fcf2e763-d3ff-4884-9d2d-539c07bccf2b")
 	)
-	(fp_text user "REF**"
-		(at 0.001016 9.094107 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "d0ab1b22-3a25-4993-8fc8-7238537dc408")
 		(effects

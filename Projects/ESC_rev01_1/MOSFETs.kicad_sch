@@ -144,28 +144,26 @@
 				)
 			)
 			(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-				(at 5.08 -1.905 0)
+				(at 0 -14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.vishay.com/docs/65689/sir696dp.pdf"
-				(at 5.08 -3.81 0)
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Description" "60A Id, 125V Vds N-Channel MOSFET, 9.6mOhm Ron, 19.4 nC Qg(typ), PowerPAK-8"
-				(at 0 0 0)
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -444,6 +442,129 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DF_ESC_rev01_1:R_Shunt"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Shunt"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shunt resistor with Kelvin connections"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res shunt resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*Shunt*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Shunt_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 250 215 1)
+					)
+				)
+			)
+			(symbol "R_Shunt_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1315,16 +1436,16 @@
 		(uuid "f3c9814c-b91c-44f8-97fa-65129300601d")
 	)
 	(junction
+		(at 149.86 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "121652a0-a246-4129-b7ac-843655f0aa8d")
+	)
+	(junction
 		(at 127 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bffdcca-6648-4aaf-81a4-ae7cffd010d9")
-	)
-	(junction
-		(at 82.55 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ef8bca9-c926-44d8-a762-7bd5b0562046")
 	)
 	(junction
 		(at 134.62 100.33)
@@ -1375,10 +1496,10 @@
 		(uuid "c8943850-63c8-40b6-b5de-beec0f82c4b1")
 	)
 	(junction
-		(at 149.86 123.19)
+		(at 149.86 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd48c0f7-048b-42ca-babd-6466a8a0cc90")
+		(uuid "e24badd5-1d73-469f-a602-e93beba4645d")
 	)
 	(junction
 		(at 201.93 100.33)
@@ -1393,10 +1514,10 @@
 		(uuid "f1775f5f-a1d5-486e-8b2d-79346fcd6f84")
 	)
 	(junction
-		(at 149.86 133.35)
+		(at 82.55 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6d6c8a3-a758-4957-9c8b-41243b1d6de9")
+		(uuid "f4d840b1-baea-425c-9e09-025446727dea")
 	)
 	(polyline
 		(pts
@@ -1990,16 +2111,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 130.81) (xy 149.86 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70350601-40c1-4c85-8e4f-8fee49e673f6")
-	)
-	(wire
-		(pts
 			(xy 127 123.19) (xy 129.54 123.19)
 		)
 		(stroke
@@ -2187,16 +2298,6 @@
 			(type default)
 		)
 		(uuid "885a8b47-2b99-4ae0-bc93-a5917433665f")
-	)
-	(wire
-		(pts
-			(xy 82.55 130.81) (xy 82.55 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1bd20f-4ead-4db4-837e-f238975ddd02")
 	)
 	(wire
 		(pts
@@ -4467,7 +4568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0102636b-e539-4292-9aff-c9ddb5c66db9")
-		(property "Reference" "R35"
+		(property "Reference" "R32"
 			(at 129.54 73.66 90)
 			(effects
 				(font
@@ -4519,15 +4620,15 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R35")
+					(reference "R32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 149.86 127 0)
+		(lib_id "DF_ESC_rev01_1:R_Shunt")
+		(at 149.86 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4535,8 +4636,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09c32999-e4c0-489c-9539-3f5d3b5a54da")
-		(property "Reference" "R40"
-			(at 152.4 125.7299 0)
+		(property "Reference" "R37"
+			(at 152.4 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4646,7 @@
 			)
 		)
 		(property "Value" "0R001"
-			(at 152.4 128.2699 0)
+			(at 152.4 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,8 +4654,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.082 127 90)
+		(property "Footprint" "DF_ESC_rev01_1:RES_VISHAY_WSLP27261L000"
+			(at 148.082 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 127 0)
+			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,8 +4672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 149.86 127 0)
+		(property "Description" "Shunt resistor with Kelvin connections"
+			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4690,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R40")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -4605,7 +4706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1632e364-a20b-4776-9db2-005f6b5b16fd")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 269.24 73.6599 0)
 			(effects
 				(font
@@ -4656,7 +4757,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4672,7 +4773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18f6aa79-160f-4e07-9d97-9299b532d036")
-		(property "Reference" "R39"
+		(property "Reference" "R36"
 			(at 137.16 104.1399 0)
 			(effects
 				(font
@@ -4726,7 +4827,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R39")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -4760,7 +4861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 85.09 81.915 0)
 			(effects
 				(font
@@ -4771,7 +4872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/65689/sir696dp.pdf"
+		(property "Datasheet" ""
 			(at 85.09 83.82 0)
 			(effects
 				(font
@@ -4781,7 +4882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60A Id, 125V Vds N-Channel MOSFET, 9.6mOhm Ron, 19.4 nC Qg(typ), PowerPAK-8"
+		(property "Description" ""
 			(at 80.01 80.01 0)
 			(effects
 				(font
@@ -4869,7 +4970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "DF_ESC_rev01_1:NetTie-2_SMD_Pad_4.0x2.0mm"
 			(at 82.55 138.43 0)
 			(effects
 				(font
@@ -4878,7 +4979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 82.55 138.43 0)
 			(effects
 				(font
@@ -4887,7 +4988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" ""
 			(at 82.55 138.43 0)
 			(effects
 				(font
@@ -4920,7 +5021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2307e1d4-2388-4c3e-abef-4b91671c82e9")
-		(property "Reference" "R31"
+		(property "Reference" "R28"
 			(at 66.04 118.364 90)
 			(effects
 				(font
@@ -4972,7 +5073,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R31")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -5006,7 +5107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "DF_ESC_rev01_1:NetTie-2_SMD_Pad_4.0x2.0mm"
 			(at 217.17 115.57 0)
 			(effects
 				(font
@@ -5015,7 +5116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 217.17 115.57 0)
 			(effects
 				(font
@@ -5024,7 +5125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" ""
 			(at 217.17 115.57 0)
 			(effects
 				(font
@@ -5076,7 +5177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 219.71 81.915 0)
 			(effects
 				(font
@@ -5087,7 +5188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/65689/sir696dp.pdf"
+		(property "Datasheet" ""
 			(at 219.71 83.82 0)
 			(effects
 				(font
@@ -5097,7 +5198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60A Id, 125V Vds N-Channel MOSFET, 9.6mOhm Ron, 19.4 nC Qg(typ), PowerPAK-8"
+		(property "Description" ""
 			(at 214.63 80.01 0)
 			(effects
 				(font
@@ -5185,7 +5286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "DF_ESC_rev01_1:NetTie-2_SMD_Pad_4.0x2.0mm"
 			(at 149.86 115.57 0)
 			(effects
 				(font
@@ -5194,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 149.86 115.57 0)
 			(effects
 				(font
@@ -5203,7 +5304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" ""
 			(at 149.86 115.57 0)
 			(effects
 				(font
@@ -5236,7 +5337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38d8513b-38d4-45d4-9dc8-f9ea10e773d7")
-		(property "Reference" "R36"
+		(property "Reference" "R33"
 			(at 129.54 95.504 90)
 			(effects
 				(font
@@ -5288,7 +5389,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R36")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -5303,7 +5404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a7007fc-0b73-4066-bd48-028341233662")
-		(property "Reference" "R37"
+		(property "Reference" "R34"
 			(at 133.35 118.364 90)
 			(effects
 				(font
@@ -5355,7 +5456,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R37")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5370,7 +5471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fb98d2b-1e19-468f-8776-ba67331d04b9")
-		(property "Reference" "R42"
+		(property "Reference" "R39"
 			(at 196.85 95.504 90)
 			(effects
 				(font
@@ -5422,7 +5523,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R42")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -5454,7 +5555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 209.55 90.17 0)
 			(effects
 				(font
@@ -5463,7 +5564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 209.55 90.17 0)
 			(effects
 				(font
@@ -5472,7 +5573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" ""
 			(at 209.55 90.17 0)
 			(effects
 				(font
@@ -5505,7 +5606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "514ec13b-7e1a-4818-b061-67d061a21bd6")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR065"
 			(at 82.55 149.86 0)
 			(effects
 				(font
@@ -5555,7 +5656,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "#PWR068")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5571,7 +5672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52eabe8a-ab81-40a5-a79d-d4af93e27e74")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 269.24 95.2499 0)
 			(effects
 				(font
@@ -5622,7 +5723,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5656,7 +5757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 219.71 102.235 0)
 			(effects
 				(font
@@ -5667,7 +5768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/65689/sir696dp.pdf"
+		(property "Datasheet" ""
 			(at 219.71 104.14 0)
 			(effects
 				(font
@@ -5677,7 +5778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60A Id, 125V Vds N-Channel MOSFET, 9.6mOhm Ron, 19.4 nC Qg(typ), PowerPAK-8"
+		(property "Description" ""
 			(at 214.63 100.33 0)
 			(effects
 				(font
@@ -5746,7 +5847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "611d56c3-be7a-499c-baa1-4fbad4ee79f4")
-		(property "Reference" "R30"
+		(property "Reference" "R27"
 			(at 62.23 95.504 90)
 			(effects
 				(font
@@ -5798,7 +5899,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R30")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5814,7 +5915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "639bd0dc-39e7-4e95-8474-b9ae6cbe20a5")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR070"
 			(at 217.17 67.31 0)
 			(effects
 				(font
@@ -5864,7 +5965,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "#PWR073")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -5880,7 +5981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "689ec7b7-c178-4bf9-917c-310364d9d8d1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR067"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -5930,7 +6031,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "#PWR070")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5946,7 +6047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e8b1307-664a-41b7-a881-0e927b6f12b4")
-		(property "Reference" "R41"
+		(property "Reference" "R38"
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -5998,7 +6099,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R41")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -6014,7 +6115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "799bb412-5842-4250-8996-605a9fba530f")
-		(property "Reference" "R43"
+		(property "Reference" "R40"
 			(at 204.47 105.4099 0)
 			(effects
 				(font
@@ -6068,7 +6169,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R43")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -6083,7 +6184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8863d065-bd33-42f4-8ad4-d001c98a17b2")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR068"
 			(at 149.86 149.86 0)
 			(effects
 				(font
@@ -6133,7 +6234,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "#PWR071")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -6167,7 +6268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "DF_ESC_rev01_1:NetTie-2_SMD_Pad_4.0x2.0mm"
 			(at 82.55 115.57 0)
 			(effects
 				(font
@@ -6176,7 +6277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 82.55 115.57 0)
 			(effects
 				(font
@@ -6185,7 +6286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" ""
 			(at 82.55 115.57 0)
 			(effects
 				(font
@@ -6218,7 +6319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90281038-53ac-4120-aae6-92962ab58480")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR063"
 			(at 67.31 116.84 0)
 			(effects
 				(font
@@ -6268,7 +6369,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "#PWR066")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6283,7 +6384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98581f56-58ea-4595-aee4-245c257210ff")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR069"
 			(at 201.93 118.11 0)
 			(effects
 				(font
@@ -6333,7 +6434,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "#PWR072")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6367,7 +6468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 152.4 102.235 0)
 			(effects
 				(font
@@ -6378,7 +6479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/65689/sir696dp.pdf"
+		(property "Datasheet" ""
 			(at 152.4 104.14 0)
 			(effects
 				(font
@@ -6388,7 +6489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60A Id, 125V Vds N-Channel MOSFET, 9.6mOhm Ron, 19.4 nC Qg(typ), PowerPAK-8"
+		(property "Description" ""
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -6474,7 +6575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -6483,7 +6584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -6492,7 +6593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" ""
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -6544,7 +6645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "DF_ESC_rev01_1:NetTie-2_SMD_Pad_4.0x2.0mm"
 			(at 149.86 138.43 0)
 			(effects
 				(font
@@ -6553,7 +6654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 149.86 138.43 0)
 			(effects
 				(font
@@ -6562,7 +6663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" ""
 			(at 149.86 138.43 0)
 			(effects
 				(font
@@ -6596,7 +6697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e5324e-c5fa-4bd2-9c68-b4a7aff18139")
-		(property "Reference" "R29"
+		(property "Reference" "R26"
 			(at 62.23 73.66 90)
 			(effects
 				(font
@@ -6648,7 +6749,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R29")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6664,7 +6765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba2987ae-d824-4b7d-bf45-636cd8aaf3a7")
-		(property "Reference" "R33"
+		(property "Reference" "R30"
 			(at 69.85 104.1399 0)
 			(effects
 				(font
@@ -6718,7 +6819,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R33")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6734,7 +6835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf6a76b1-5625-420a-a118-f3136ed850e6")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR064"
 			(at 82.55 67.31 0)
 			(effects
 				(font
@@ -6784,7 +6885,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "#PWR067")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6816,7 +6917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 74.93 90.17 0)
 			(effects
 				(font
@@ -6825,7 +6926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 74.93 90.17 0)
 			(effects
 				(font
@@ -6834,7 +6935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
+		(property "Description" ""
 			(at 74.93 90.17 0)
 			(effects
 				(font
@@ -6886,7 +6987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 152.4 81.915 0)
 			(effects
 				(font
@@ -6897,7 +6998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/65689/sir696dp.pdf"
+		(property "Datasheet" ""
 			(at 152.4 83.82 0)
 			(effects
 				(font
@@ -6907,7 +7008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60A Id, 125V Vds N-Channel MOSFET, 9.6mOhm Ron, 19.4 nC Qg(typ), PowerPAK-8"
+		(property "Description" ""
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -6976,7 +7077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9718dec-7d63-4c8e-9185-449d17bdea95")
-		(property "Reference" "R32"
+		(property "Reference" "R29"
 			(at 66.04 128.524 90)
 			(effects
 				(font
@@ -7028,7 +7129,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R32")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7043,7 +7144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e74e25f0-8f75-4262-8455-c8e7591e678a")
-		(property "Reference" "C51"
+		(property "Reference" "C49"
 			(at 120.65 127.254 0)
 			(effects
 				(font
@@ -7097,7 +7198,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "C51")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7752720-25b7-4fe8-a925-d3b33f7b8de5")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 269.24 115.5699 0)
 			(effects
 				(font
@@ -7164,7 +7265,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7179,7 +7280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef54ea5a-2b09-44a0-8a93-fdb5dbc23c84")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR066"
 			(at 134.62 116.84 0)
 			(effects
 				(font
@@ -7229,7 +7330,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "#PWR069")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7244,7 +7345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f02950a8-7b77-4326-bebf-12e082c63e6e")
-		(property "Reference" "R38"
+		(property "Reference" "R35"
 			(at 133.35 128.524 90)
 			(effects
 				(font
@@ -7296,7 +7397,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R38")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7311,7 +7412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6116b58-172c-41c2-8283-5c04e02a7010")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR071"
 			(at 217.17 139.7 0)
 			(effects
 				(font
@@ -7361,7 +7462,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "#PWR074")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7376,7 +7477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f91db5d2-cb87-44cc-8e3b-50c685b12418")
-		(property "Reference" "C50"
+		(property "Reference" "C48"
 			(at 53.34 127.254 0)
 			(effects
 				(font
@@ -7430,15 +7531,15 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "C50")
+					(reference "C48")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 82.55 127 0)
+		(lib_id "DF_ESC_rev01_1:R_Shunt")
+		(at 82.55 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7446,8 +7547,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd3dbddf-0158-4144-862d-636b517f60dc")
-		(property "Reference" "R34"
-			(at 85.09 125.7299 0)
+		(property "Reference" "R31"
+			(at 85.09 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,7 +7557,7 @@
 			)
 		)
 		(property "Value" "0R001"
-			(at 85.09 128.2699 0)
+			(at 85.09 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,8 +7565,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 80.772 127 90)
+		(property "Footprint" "DF_ESC_rev01_1:RES_VISHAY_WSLP27261L000"
+			(at 80.772 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 127 0)
+			(at 82.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,8 +7583,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 82.55 127 0)
+		(property "Description" "Shunt resistor with Kelvin connections"
+			(at 82.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7601,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/19fe9d69-60cb-446d-a292-f9b9e1eef2a9"
-					(reference "R34")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7534,7 +7635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+		(property "Footprint" "DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 85.09 102.235 0)
 			(effects
 				(font
@@ -7545,7 +7646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/65689/sir696dp.pdf"
+		(property "Datasheet" ""
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -7555,7 +7656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60A Id, 125V Vds N-Channel MOSFET, 9.6mOhm Ron, 19.4 nC Qg(typ), PowerPAK-8"
+		(property "Description" ""
 			(at 80.01 100.33 0)
 			(effects
 				(font

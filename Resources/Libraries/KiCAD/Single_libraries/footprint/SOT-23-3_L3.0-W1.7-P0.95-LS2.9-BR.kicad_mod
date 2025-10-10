@@ -6,7 +6,7 @@
 	(descr "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR footprint")
 	(tags "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR footprint C246766")
 	(property "Reference" "REF**"
-		(at 0 -3.526213 0)
+		(at 0 -2.35 0)
 		(layer "F.SilkS")
 		(uuid "2f8163a3-d1d8-4ab1-baf9-7b48e8370ba5")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
-		(at 0 3.526213 0)
+		(at 0 4.25 0)
 		(layer "F.Fab")
 		(uuid "745ff9ea-9b87-4222-85bd-921b590db9df")
 		(effects
@@ -124,8 +124,8 @@
 		(layer "F.Fab")
 		(uuid "9571ed5a-3f1d-49dc-8ceb-7d06f2700857")
 	)
-	(fp_text user "REF**"
-		(at 0 5.526213 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.25 0)
 		(layer "F.Fab")
 		(uuid "421e6cdc-83a1-4347-ab9b-ef5909bdf7bd")
 		(effects

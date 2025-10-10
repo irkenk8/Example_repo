@@ -6,7 +6,7 @@
 	(descr "CAP-TH_BD16.0-P7.50-D1.2-FD footprint")
 	(tags "CAP-TH_BD16.0-P7.50-D1.2-FD footprint C443097")
 	(property "Reference" "REF**"
-		(at -1.9016 -3.193726 0)
+		(at 0.000127 -9.05 0)
 		(layer "F.SilkS")
 		(uuid "e4116f40-a07c-49f0-ab67-6598518d1bd1")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "CAP-TH_BD16.0-P7.50-D1.2-FD"
-		(at -1.9016 2.533477 0)
+		(at 0 2.5 0)
 		(layer "F.Fab")
 		(uuid "2f3ea250-e8dd-4b6b-a3fc-2b908dff1abf")
 		(effects
@@ -94,8 +94,8 @@
 		(layer "F.SilkS")
 		(uuid "feb90abc-43bd-46fa-b895-cd1cdb70bb52")
 	)
-	(fp_text user "REF**"
-		(at -1.9016 4.533477 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
 		(layer "F.Fab")
 		(uuid "92cf4063-b656-46e9-8e03-be9e2b6a4f0a")
 		(effects

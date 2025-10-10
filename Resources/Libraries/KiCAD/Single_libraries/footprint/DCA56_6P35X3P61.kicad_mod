@@ -5,19 +5,19 @@
 	(layer "F.Cu")
 	(tags "DRV8302DCA ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -8.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4aff2bd2-a586-4ffc-b85c-2eacdbcfcac6")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "DCA56_6P35X3P61"
-		(at 0 0 0)
+		(at 0 1.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cccff277-b221-4fe3-883f-9379204d6ee6")
@@ -288,17 +288,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "514501bb-f9b7-4658-a60e-2f95b6049644")
-	)
-	(fp_arc
-		(start 0.3048 -7.0485)
-		(mid 0 -6.7437)
-		(end -0.3048 -7.0485)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8e002395-91d7-4b3f-9378-0394b5896847")
 	)
 	(fp_circle
 		(center -4.9 -6.75)
@@ -3212,16 +3201,16 @@
 		(layer "F.Fab")
 		(uuid "f964ecf3-7a23-4641-8df3-50949bb14c7f")
 	)
-	(fp_arc
-		(start 0.3048 -7.0485)
-		(mid 0 -6.7437)
-		(end -0.3048 -7.0485)
+	(fp_circle
+		(center -2.65 -6.5)
+		(end -2.525 -6.5)
 		(stroke
-			(width 0.0254)
+			(width 0.25)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "719aaedb-1e17-40d0-832d-00c8fb50dbc0")
+		(uuid "ce135690-cdd3-4bef-bc27-eee9bdebc576")
 	)
 	(fp_text user "*"
 		(at -4.0767 -8.197786 0)

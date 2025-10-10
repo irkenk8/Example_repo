@@ -154,7 +154,7 @@
 		(layer "F.Fab")
 		(uuid "eb2f220d-1b1f-4350-814a-adac66dfbd6d")
 	)
-	(fp_text user "REF**"
+	(fp_text user "${REFERENCE}"
 		(at 0.012459 6.150165 0)
 		(layer "F.Fab")
 		(uuid "6173965d-8b6d-4461-b21a-fcf6b12ce8a7")

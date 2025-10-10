@@ -1,426 +1,511 @@
 Info: Processing symbol 'C1:DF_ESC_rev01_1:CAP-TH_BD16.0-P7.50-D1.2-FD'.
-Info: Processing symbol 'H4:MountingHole:MountingHole_3.2mm_M3'.
-Info: Processing symbol 'C47:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'C2:DF_ESC_rev01_1:CAP-TH_BD16.0-P7.50-D1.2-FD'.
-Info: Processing symbol 'C48:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R28:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'C4:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'CR1:DF_ESC_rev01_1:XSON-7_L2.2-W1.2-P0.50-BL'.
 Info: Processing symbol 'C5:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C49:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'C6:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C50:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'C7:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C51:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'C8:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C52:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'C9:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D13:Diode_SMD:D_SOD-323'.
 Info: Processing symbol 'C10:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C53:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R29:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'C12:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D1:DF_ESC_rev01_1:SMA_L4.4-W2.8-LS5.1-BI'.
+Info: Processing symbol 'R30:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'C13:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C54:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'J5:DF_ESC_rev01_1:CONN-SMD_XH-3AWB'.
 Info: Processing symbol 'C14:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'J1:DF_ESC_rev01_1:CONN-SMD_8P-P2.50_HX25003-8AWB'.
+Info: Processing symbol 'R31:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R32:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R33:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'C15:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C55:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R34:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R35:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'C16:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D2:LED_SMD:LED_1206_3216Metric'.
+Info: Processing symbol 'R36:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'C17:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C56:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R38:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'C18:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'R27:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'C19:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C57:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C20:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D3:LED_SMD:LED_1206_3216Metric'.
-Info: Processing symbol 'C21:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C58:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C22:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'J2:DF_ESC_rev01_1:CONN-SMD_6P-P2.50_DEALON_XH-6PWB'.
-Info: Processing symbol 'C23:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D4:Diode_SMD:D_SOD-323'.
-Info: Processing symbol 'C24:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D5:LED_SMD:LED_1206_3216Metric'.
-Info: Processing symbol 'C26:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C60:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C27:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'J3:DF_ESC_rev01_1:CONN-SMD_XH-3AWB'.
-Info: Processing symbol 'C28:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C61:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C29:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C59:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C30:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D6:LED_SMD:LED_1206_3216Metric'.
-Info: Processing symbol 'C31:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C62:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C32:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'FB1:Inductor_SMD:L_0603_1608Metric'.
-Info: Processing symbol 'C33:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C34:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C63:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C35:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C36:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D7:LED_SMD:LED_1206_3216Metric'.
-Info: Processing symbol 'C37:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'H1:MountingHole:MountingHole_3.2mm_M3'.
-Info: Processing symbol 'C38:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D8:LED_SMD:LED_1206_3216Metric'.
-Info: Processing symbol 'C39:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'H2:MountingHole:MountingHole_3.2mm_M3'.
-Info: Processing symbol 'C40:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D9:Diode_SMD:Nexperia_CFP3_SOD-123W'.
-Info: Processing symbol 'C41:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'H3:MountingHole:MountingHole_3.2mm_M3'.
-Info: Processing symbol 'C42:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D10:Diode_SMD:D_SOD-323'.
-Info: Processing symbol 'C43:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D11:Diode_SMD:D_SOD-323'.
-Info: Processing symbol 'C44:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'C45:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'D12:Diode_SMD:D_SOD-323'.
-Info: Processing symbol 'C46:Capacitor_SMD:C_0603_1608Metric'.
-Info: Processing symbol 'J4:DF_ESC_rev01_1:WE_7461084'.
-Info: Processing symbol 'J5:DF_ESC_rev01_1:WE_7461084'.
 Info: Processing symbol 'J6:DF_ESC_rev01_1:WE_7461084'.
+Info: Processing symbol 'R39:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'J7:DF_ESC_rev01_1:WE_7461084'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R40:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C20:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'J8:DF_ESC_rev01_1:WE_7461084'.
+Info: Processing symbol 'R41:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'J9:DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
+Info: Processing symbol 'C21:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R42:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R43:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R44:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C22:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'J10:DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
+Info: Processing symbol 'R45:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C23:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R46:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C24:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R47:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C25:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'J11:DF_ESC_rev01_1:USB-C_SMD-TYPE-C-31-M-12_1'.
+Info: Processing symbol 'R48:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R49:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C26:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R50:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R51:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R52:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C27:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R53:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C28:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R54:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R55:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C29:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C58:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R56:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R57:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C30:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'L1:DF_ESC_rev01_1:IND-SMD_L7.8-W7.8_SDR0805'.
+Info: Processing symbol 'C31:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'NT1:NetTie:NetTie-2_SMD_Pad2.0mm'.
 Info: Processing symbol 'NT2:NetTie:NetTie-2_SMD_Pad2.0mm'.
 Info: Processing symbol 'NT3:NetTie:NetTie-2_SMD_Pad2.0mm'.
 Info: Processing symbol 'NT4:NetTie:NetTie-2_SMD_Pad2.0mm'.
 Info: Processing symbol 'NT5:NetTie:NetTie-2_SMD_Pad2.0mm'.
+Info: Processing symbol 'C32:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'NT6:NetTie:NetTie-2_SMD_Pad2.0mm'.
+Info: Processing symbol 'C33:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'NT7:NetTie:NetTie-2_SMD_Pad2.0mm'.
+Info: Processing symbol 'C34:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'NT8:NetTie:NetTie-2_SMD_Pad2.0mm'.
+Info: Processing symbol 'C35:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'Q1:Package_SO:PowerPAK_SO-8_Single'.
+Info: Processing symbol 'C36:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R58:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C37:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R59:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C38:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'Q2:Package_SO:PowerPAK_SO-8_Single'.
+Info: Processing symbol 'C39:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R60:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C40:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R61:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C41:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'Q3:Package_SO:PowerPAK_SO-8_Single'.
+Info: Processing symbol 'C42:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R62:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C43:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R63:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C44:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'Q4:Package_SO:PowerPAK_SO-8_Single'.
+Info: Processing symbol 'C45:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'SW1:DF_ESC_rev01_1:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4'.
+Info: Processing symbol 'C46:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'TH1:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C47:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'Q5:Package_SO:PowerPAK_SO-8_Single'.
+Info: Processing symbol 'C48:Capacitor_SMD:C_0603_1608Metric'.
+Info: Total warnings: 0, errors: 17.
+Info: Processing symbol 'C49:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'U1:Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
+Info: Processing symbol 'C50:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'Q6:Package_SO:PowerPAK_SO-8_Single'.
+Info: Processing symbol 'C51:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'U2:Package_QFP:LQFP-64_10x10mm_P0.5mm'.
+Info: Processing symbol 'C52:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'U3:DF_ESC_rev01_1:DCA56_6P35X3P61'.
+Info: Processing symbol 'C53:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C54:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'U4:DF_ESC_rev01_1:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR'.
+Info: Processing symbol 'C55:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C56:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'R3:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C57:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'R4:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R5:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R6:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C59:Capacitor_SMD:C_0603_1608Metric'.
 Info: Processing symbol 'R7:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C60:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'CR1:DF_ESC_rev01_1:XSON-7_L2.2-W1.2-P0.50-BL'.
+Info: Processing symbol 'D1:DF_ESC_rev01_1:SMA_L4.4-W2.8-LS5.1-BI'.
+Info: Processing symbol 'D2:LED_SMD:LED_1206_3216Metric'.
+Info: Processing symbol 'D3:LED_SMD:LED_1206_3216Metric'.
+Info: Processing symbol 'D4:Diode_SMD:D_SOD-323'.
+Info: Processing symbol 'D5:LED_SMD:LED_1206_3216Metric'.
+Info: Processing symbol 'D6:LED_SMD:LED_1206_3216Metric'.
+Info: Processing symbol 'D7:Diode_SMD:D_SOD-323'.
+Info: Processing symbol 'U5:footprint:FILTER-SMD_4P-L9.2-W6.0-P2.54-TL'.
+Info: Processing symbol 'D8:LED_SMD:LED_1206_3216Metric'.
+Info: Processing symbol 'U6:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'D9:Diode_SMD:D_SOD-323'.
+Info: Processing symbol 'Y1:DF_ESC_rev01_1:CRYSTAL-SMD_L5.0-W3.2'.
+Info: Processing symbol 'D10:LED_SMD:LED_1206_3216Metric'.
+Info: Processing symbol 'R37:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R10:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R11:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'D11:Diode_SMD:D_SOD-323'.
+Info: Processing symbol 'D12:Diode_SMD:Nexperia_CFP3_SOD-123W'.
 Info: Processing symbol 'R12:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'D13:Diode_SMD:D_SOD-323'.
 Info: Processing symbol 'R13:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'FB1:Inductor_SMD:L_0603_1608Metric'.
 Info: Processing symbol 'R14:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'H1:MountingHole:MountingHole_3.2mm_M3_DIN965_Pad'.
+Info: Processing symbol 'H2:MountingHole:MountingHole_3.2mm_M3_DIN965_Pad'.
+Info: Processing symbol 'H3:MountingHole:MountingHole_3.2mm_M3_DIN965_Pad'.
+Info: Processing symbol 'H4:MountingHole:MountingHole_3.2mm_M3_DIN965_Pad'.
+Info: Processing symbol 'J1:DF_ESC_rev01_1:CONN-TH_XT30PW-M'.
 Info: Processing symbol 'R15:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R17:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R18:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R19:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'J2:DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
 Info: Processing symbol 'R20:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R21:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R22:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R23:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R24:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'J3:DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
 Info: Processing symbol 'R25:Resistor_SMD:R_0603_1608Metric'.
 Info: Processing symbol 'R26:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R28:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R29:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R30:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R31:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R32:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R33:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R34:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R35:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R36:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R37:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R38:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R39:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R40:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R41:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R42:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R43:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R44:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R45:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R46:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R47:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R48:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R49:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R50:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R51:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R52:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R53:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R54:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R55:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R56:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R57:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R58:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R59:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R60:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R61:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R62:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R63:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R64:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R65:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R66:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'R67:Resistor_SMD:R_0603_1608Metric'.
-Info: Total warnings: 0, errors: 10.
-Info: Processing symbol 'SW1:DF_ESC_rev01_1:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4'.
-Info: Processing symbol 'TH2:Resistor_SMD:R_0603_1608Metric'.
-Info: Processing symbol 'U1:DF_ESC_rev01_1:CONN-TH_XT30PW-M'.
-Info: Processing symbol 'U2:DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
-Info: Processing symbol 'U3:Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
-Info: Processing symbol 'U4:Package_QFP:LQFP-64_10x10mm_P0.5mm'.
-Info: Processing symbol 'U5:DF_ESC_rev01_1:DCA56_6P35X3P61'.
-Info: Processing symbol 'U6:DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
-Info: Processing symbol 'U7:DF_ESC_rev01_1:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR'.
-Info: Processing symbol 'U8:DF_ESC_rev01_1:FILTER-SMD_4P-L9.2-W6.0-P2.54-TL'.
-Info: Processing symbol 'U9:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
-Info: Processing symbol 'U10:DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
-Info: Processing symbol 'U11:DF_ESC_rev01_1:USB-C_SMD-TYPE-C-31-M-12_1'.
-Info: Processing symbol 'Y1:DF_ESC_rev01_1:CRYSTAL-SMD_L5.0-W3.2'.
-Changed D13 value from D_SOD-323 to BAT60A.
-Updated D13 symbol association from  to /aabf2ea0-250c-4a27-ad08-cb36e1d2af93/77d13ee9-b478-4577-920f-f64aa600fb18.
-Updated D13 fields.
-Updated D13 sheetname to '/[04] - MCU/'.
-Updated D13 sheetfile to 'MCU.kicad_sch'.
-Updated D13 footprint filters to 'D*SOD?323*'.
-Add net /[04] - MCU/+5V_COM.
-Connected D13 pin 2 to /[04] - MCU/+5V_COM.
-Connected D13 pin 1 to +5V.
-Reconnected J1 pin 3 from ADC_TEMP to GND.
-Reconnected J1 pin 8 from ADC_TEMP to GND.
-Reconnected J1 pin 1 from +5V to /[04] - MCU/+5V_COM.
-Reconnected J1 pin 2 from +3V3 to /[04] - MCU/+3V3_COM.
-Updated J2 fields.
-Updated J2 footprint filters to ''.
-Reconnected J2 pin 6 from unconnected-(J2-Pin_6-Pad6) to /[04] - MCU/NRST.
-Reconnected J2 pin 4 from /[04] - MCU/SWDIO to /[04] - MCU/SWCLK.
-Reconnected J2 pin 2 from /[04] - MCU/SWCLK to /[04] - MCU/SWDIO.
-Reconnected J2 pin 5 from /[04] - MCU/NRST to GND.
-Reconnected J2 pin 1 from +3V3 to /[04] - MCU/+3V3_DBG.
-Add net unconnected-(J2-Pad7).
-Connected J2 pin 7 to unconnected-(J2-Pad7).
-Reconnected J2 pin 3 from ADC_TEMP to GND.
-Add net unconnected-(J2-Pad8).
-Connected J2 pin 8 to unconnected-(J2-Pad8).
+Info: Processing symbol 'R27:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'J4:DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
+Changed C63 reference designator to C3.
+Changed C12 reference designator to C11.
+Changed C13 reference designator to C12.
+Changed C14 reference designator to C13.
+Changed C15 reference designator to C14.
+Add net Net-(C14-Pad1).
+Reconnected C14 pin 1 from Net-(C15-Pad1) to Net-(C14-Pad1).
+Changed C16 reference designator to C15.
+Reconnected C15 pin 1 from Net-(C16-Pad1) to Net-(C15-Pad1).
+Changed C17 reference designator to C16.
+Changed C18 reference designator to C17.
+Changed C19 reference designator to C18.
+Add net Net-(U2-VCAP_1).
+Reconnected C18 pin 1 from Net-(U4-VCAP_1) to Net-(U2-VCAP_1).
+Changed C20 reference designator to C19.
+Changed C21 reference designator to C20.
+Add net Net-(U2-VCAP_2).
+Reconnected C20 pin 1 from Net-(U4-VCAP_2) to Net-(U2-VCAP_2).
+Changed C22 reference designator to C21.
+Add net Net-(U2-VDDA).
+Reconnected C21 pin 1 from Net-(U4-VDDA) to Net-(U2-VDDA).
+Changed C23 reference designator to C22.
+Reconnected C22 pin 1 from Net-(U4-VDDA) to Net-(U2-VDDA).
+Changed C24 reference designator to C23.
+Changed C26 reference designator to C24.
+Changed C27 reference designator to C25.
+Add net Net-(U3-GVDD).
+Reconnected C25 pin 1 from Net-(U5-GVDD) to Net-(U3-GVDD).
+Changed C28 reference designator to C26.
+Add net Net-(C26-Pad2).
+Reconnected C26 pin 2 from Net-(C28-Pad2) to Net-(C26-Pad2).
+Changed C29 reference designator to C27.
+Changed C30 reference designator to C28.
+Reconnected C28 pin 1 from Net-(U5-GVDD) to Net-(U3-GVDD).
+Add net Net-(U3-AVDD).
+Reconnected C29 pin 1 from Net-(U5-AVDD) to Net-(U3-AVDD).
+Changed C32 reference designator to C30.
+Changed C33 reference designator to C31.
+Add net Net-(U3-CP2).
+Reconnected C31 pin 2 from Net-(U5-CP2) to Net-(U3-CP2).
+Add net Net-(U3-CP1).
+Reconnected C31 pin 1 from Net-(U5-CP1) to Net-(U3-CP1).
+Changed C34 reference designator to C32.
+Changed C35 reference designator to C33.
+Changed C36 reference designator to C34.
+Changed C37 reference designator to C35.
+Changed C38 reference designator to C36.
+Changed C39 reference designator to C37.
+Changed C40 reference designator to C38.
+Changed C41 reference designator to C39.
+Changed C42 reference designator to C40.
+Changed C43 reference designator to C41.
+Changed C44 reference designator to C42.
+Changed C45 reference designator to C43.
+Changed C46 reference designator to C44.
+Changed C47 reference designator to C45.
+Changed C48 reference designator to C46.
+Changed C49 reference designator to C47.
+Changed C50 reference designator to C48.
+Changed C51 reference designator to C49.
+Changed C52 reference designator to C50.
+Changed C53 reference designator to C51.
+Changed C54 reference designator to C52.
+Changed C55 reference designator to C53.
+Changed C56 reference designator to C54.
+Changed C57 reference designator to C55.
+Changed C58 reference designator to C56.
+Changed C59 reference designator to C57.
+Changed C31 reference designator to C29.
+Changed C60 reference designator to C58.
+Changed C61 reference designator to C59.
+Changed C62 reference designator to C60.
+Changed D12 reference designator to D7.
+Changed D7 reference designator to D8.
+Reconnected D8 pin 2 from Net-(D7-A) to Net-(D8-A).
+Changed D13 reference designator to D9.
+Changed D8 reference designator to D10.
+Add net Net-(D10-A).
+Reconnected D10 pin 2 from Net-(D8-A) to Net-(D10-A).
+Changed D9 reference designator to D12.
+Changed D10 reference designator to D13.
+Reconnected FB1 pin 1 from Net-(U4-VDDA) to Net-(U2-VDDA).
+Changed U1 reference designator to J1.
+Add net unconnected-(J1-Pad3).
+Reconnected J1 pin 3 from unconnected-(U1-Pad3) to unconnected-(J1-Pad3).
+Add net unconnected-(J1-Pad4).
+Reconnected J1 pin 4 from unconnected-(U1-Pad4) to unconnected-(J1-Pad4).
+Changed U2 reference designator to J2.
+Add net unconnected-(J2-Pad3).
+Reconnected J2 pin 3 from unconnected-(U2-Pad3) to unconnected-(J2-Pad3).
+Add net unconnected-(J2-Pad4).
+Reconnected J2 pin 4 from unconnected-(U2-Pad4) to unconnected-(J2-Pad4).
+Changed J1 footprint from 'DF_ESC_rev01_1:CONN-SMD_8P-P2.50_HX25003-8AWB' to 'DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
+Changed J1 reference designator to J3.
 Updated J3 fields.
-Updated J3 footprint filters to ''.
-Add net Net-(J3-Pad3).
-Reconnected J3 pin 3 from Net-(J3-Pin_3) to Net-(J3-Pad3).
-Add net unconnected-(J3-Pad5).
-Connected J3 pin 5 to unconnected-(J3-Pad5).
-Reconnected J3 pin 2 from ADC_TEMP to GND.
-Add net unconnected-(J3-Pad4).
-Updated D12 symbol association from  to /aabf2ea0-250c-4a27-ad08-cb36e1d2af93/62a8666b-f8e5-4168-8d32-d2573063a111.
-Add net GND.
-Reconnected C1 pin 2 from ADC_TEMP to GND.
-Reconnected C2 pin 2 from ADC_TEMP to GND.
-Reconnected C4 pin 2 from ADC_TEMP to GND.
-Reconnected C5 pin 2 from ADC_TEMP to GND.
-Reconnected C6 pin 2 from ADC_TEMP to GND.
-Reconnected C7 pin 2 from ADC_TEMP to GND.
-Reconnected NT3 pin 1 from ADC_TEMP to GND.
-Reconnected C8 pin 2 from ADC_TEMP to GND.
-Reconnected C9 pin 2 from ADC_TEMP to GND.
-Reconnected C10 pin 2 from ADC_TEMP to GND.
-Reconnected NT6 pin 1 from ADC_TEMP to GND.
-Reconnected C12 pin 2 from ADC_TEMP to GND.
-Reconnected C13 pin 2 from ADC_TEMP to GND.
-Reconnected NT8 pin 1 from ADC_TEMP to GND.
-Reconnected C14 pin 2 from ADC_TEMP to GND.
-Reconnected C15 pin 2 from ADC_TEMP to GND.
-Reconnected C16 pin 2 from ADC_TEMP to GND.
-Reconnected C17 pin 2 from ADC_TEMP to GND.
-Reconnected C18 pin 2 from ADC_TEMP to GND.
-Reconnected C19 pin 2 from ADC_TEMP to GND.
-Reconnected C20 pin 2 from ADC_TEMP to GND.
-Reconnected C21 pin 2 from ADC_TEMP to GND.
-Reconnected R3 pin 2 from ADC_TEMP to GND.
-Reconnected C22 pin 2 from ADC_TEMP to GND.
-Reconnected C23 pin 2 from ADC_TEMP to GND.
-Reconnected C24 pin 2 from ADC_TEMP to GND.
-Reconnected C26 pin 2 from ADC_TEMP to GND.
-Reconnected C27 pin 2 from ADC_TEMP to GND.
-Reconnected C28 pin 1 from ADC_TEMP to GND.
-Reconnected C30 pin 2 from ADC_TEMP to GND.
-Reconnected C31 pin 2 from ADC_TEMP to GND.
-Reconnected C32 pin 1 from ADC_TEMP to GND.
-Reconnected C34 pin 2 from ADC_TEMP to GND.
-Reconnected R15 pin 2 from Net-(J3-Pin_3) to Net-(J3-Pad3).
-Reconnected C36 pin 2 from ADC_TEMP to GND.
-Reconnected C37 pin 2 from ADC_TEMP to GND.
-Reconnected R18 pin 1 from ADC_TEMP to GND.
-Reconnected C38 pin 2 from ADC_TEMP to GND.
-Reconnected R19 pin 1 from ADC_TEMP to GND.
-Reconnected C39 pin 2 from ADC_TEMP to GND.
-Reconnected R20 pin 2 from ADC_TEMP to GND.
-Reconnected C40 pin 2 from ADC_TEMP to GND.
-Reconnected C41 pin 2 from ADC_TEMP to GND.
-Reconnected R22 pin 2 from ADC_TEMP to GND.
-Reconnected C42 pin 2 from ADC_TEMP to GND.
-Reconnected C43 pin 2 from ADC_TEMP to GND.
-Reconnected R24 pin 2 from ADC_TEMP to GND.
-Reconnected C45 pin 2 from ADC_TEMP to GND.
-Reconnected C46 pin 2 from ADC_TEMP to GND.
-Reconnected R26 pin 2 from ADC_TEMP to GND.
-Connected J3 pin 4 to unconnected-(J3-Pad4).
-Reconnected C48 pin 2 from ADC_TEMP to GND.
-Reconnected R28 pin 2 from ADC_TEMP to GND.
-Reconnected C52 pin 1 from ADC_TEMP to GND.
-Reconnected C53 pin 2 from ADC_TEMP to GND.
-Reconnected C54 pin 2 from ADC_TEMP to GND.
-Reconnected C55 pin 2 from ADC_TEMP to GND.
-Reconnected C56 pin 2 from ADC_TEMP to GND.
-Reconnected R33 pin 2 from ADC_TEMP to GND.
-Reconnected C57 pin 2 from ADC_TEMP to GND.
-Reconnected C58 pin 2 from ADC_TEMP to GND.
-Reconnected C29 pin 2 from ADC_TEMP to GND.
-Reconnected C59 pin 2 from ADC_TEMP to GND.
-Reconnected C60 pin 2 from ADC_TEMP to GND.
-Reconnected C61 pin 2 from ADC_TEMP to GND.
-Reconnected R39 pin 2 from ADC_TEMP to GND.
-Reconnected C62 pin 2 from ADC_TEMP to GND.
-Added C63 (footprint 'Capacitor_SMD:C_0603_1608Metric').
-Changed REF** reference designator to C63.
-Changed C63 value from C_0603_1608Metric to 100n.
-Reconnected R43 pin 2 from ADC_TEMP to GND.
-Updated C63 symbol association from  to /62292eba-a192-4583-8aea-d56ef9bebcec/94cd5b50-4bea-4ea2-9106-9d6fd87bf3e8.
-Updated C63 fields.
-Updated C63 sheetname to '/[02] - INPUT PROTECTION/'.
-Updated C63 sheetfile to 'INPUT PROTECTION.kicad_sch'.
-Reconnected R47 pin 2 from ADC_TEMP to GND.
-Updated C63 footprint filters to 'C_*'.
-Connected C63 pin 1 to +3V3.
-Connected C63 pin 2 to GND.
-Reconnected CR1 pin 2 from ADC_TEMP to GND.
-Reconnected D1 pin 1 from ADC_TEMP to GND.
-Reconnected D2 pin 1 from ADC_TEMP to GND.
-Reconnected D3 pin 1 from ADC_TEMP to GND.
-Reconnected D5 pin 1 from ADC_TEMP to GND.
-Reconnected D6 pin 1 from ADC_TEMP to GND.
-Reconnected R56 pin 1 from ADC_TEMP to GND.
-Reconnected D7 pin 1 from ADC_TEMP to GND.
-Reconnected R57 pin 1 from ADC_TEMP to GND.
-Reconnected D8 pin 1 from ADC_TEMP to GND.
-Reconnected D9 pin 2 from ADC_TEMP to GND.
-Reconnected R59 pin 1 from ADC_TEMP to GND.
-Added D11 (footprint 'Diode_SMD:D_SOD-323').
-Reconnected R60 pin 1 from ADC_TEMP to GND.
-Changed REF** reference designator to D11.
-Changed D11 value from D_SOD-323 to BAT60A.
-Updated D11 symbol association from  to /aabf2ea0-250c-4a27-ad08-cb36e1d2af93/43e25b39-208d-4af1-9129-22074e62a44b.
-Reconnected R63 pin 2 from ADC_TEMP to GND.
-Updated D11 fields.
-Reconnected R64 pin 2 from ADC_TEMP to GND.
-Updated D11 sheetname to '/[04] - MCU/'.
-Reconnected R65 pin 2 from ADC_TEMP to GND.
-Updated D11 sheetfile to 'MCU.kicad_sch'.
-Reconnected R66 pin 2 from ADC_TEMP to GND.
-Updated D11 footprint filters to 'D*SOD?323*'.
-Added R67 (footprint 'Resistor_SMD:R_0603_1608Metric').
-Add net /[04] - MCU/+3V3_DBG.
-Changed R67 value from R_0603_1608Metric to 2k2.
-Updated R67 symbol association from  to /62292eba-a192-4583-8aea-d56ef9bebcec/dea723b0-7ba4-4f2a-8529-4364d77e950d.
-Updated R67 fields.
-Updated R67 sheetname to '/[02] - INPUT PROTECTION/'.
-Updated R67 sheetfile to 'INPUT PROTECTION.kicad_sch'.
-Updated R67 footprint filters to 'R_*'.
-Connected R67 pin 2 to +3V3.
-Connected R67 pin 1 to ADC_TEMP.
-Connected D11 pin 2 to /[04] - MCU/+3V3_DBG.
-Connected SW1 pin 4 to /[04] - MCU/NRST.
-Reconnected SW1 pin 2 from /[04] - MCU/NRST to GND.
-Reconnected SW1 pin 1 from ADC_TEMP to GND.
-Connected SW1 pin 3 to /[04] - MCU/NRST.
-Connected D11 pin 1 to +3V3.
-Added TH2 (footprint 'Resistor_SMD:R_0603_1608Metric').
-Changed REF** reference designator to TH2.
-Changed TH2 value from R_0603_1608Metric to 10k.
-Updated TH2 symbol association from  to /62292eba-a192-4583-8aea-d56ef9bebcec/a8f6bc80-3967-4b60-90f3-b3cc637b5935.
-Updated TH2 fields.
-Updated TH2 sheetname to '/[02] - INPUT PROTECTION/'.
-Updated TH2 sheetfile to 'INPUT PROTECTION.kicad_sch'.
-Updated TH2 footprint filters to '*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*'.
-Connected TH2 pin 2 to GND.
-Connected TH2 pin 1 to ADC_TEMP.
-Added D12 (footprint 'Diode_SMD:D_SOD-323').
-Reconnected U1 pin 1 from ADC_TEMP to GND.
-Changed REF** reference designator to D12.
-Reconnected U2 pin 2 from ADC_TEMP to GND.
-Reconnected U2 pin 1 from +3V3 to ADC_TEMP.
-Changed D12 value from D_SOD-323 to BAT60A.
-Reconnected U3 pin 1 from ADC_TEMP to GND.
-Updated D12 fields.
-Reconnected U4 pin 8 from /[04] - MCU/TEMP_MOTOR to TEMP_MOTOR.
-Reconnected U4 pin 18 from ADC_TEMP to GND.
-Reconnected U4 pin 10 from /[04] - MCU/AN_IN to AN_IN.
-Reconnected U4 pin 53 from /[04] - MCU/FAULT to FAULT.
-Reconnected U4 pin 16 from /[04] - MCU/SENS1 to SENS1.
-Reconnected U4 pin 61 from /[04] - MCU/CAN_RX to CAN_RX.
-Reconnected U4 pin 26 from /[04] - MCU/BR_SO2 to BR_SO2.
-Reconnected U4 pin 43 from /[04] - MCU/H1 to H1.
-Reconnected U4 pin 51 from /[04] - MCU/EN_GATE to EN_GATE.
-Reconnected U4 pin 12 from ADC_TEMP to GND.
-Reconnected U4 pin 35 from /[04] - MCU/L2 to L2.
-Reconnected U4 pin 41 from /[04] - MCU/H3 to H3.
-Reconnected U4 pin 14 from /[04] - MCU/SENS3 to SENS3.
-Reconnected U4 pin 27 from /[04] - MCU/BR_SO1 to BR_SO1.
-Reconnected U4 pin 15 from /[04] - MCU/SENS2 to SENS2.
-Reconnected U4 pin 63 from ADC_TEMP to GND.
-Reconnected U4 pin 34 from /[04] - MCU/L3 to L3.
-Reconnected U4 pin 36 from /[04] - MCU/L1 to L1.
-Reconnected U4 pin 33 from /[04] - MCU/DC_CAL to DC_CAL.
-Changed REF** reference designator to R67.
-Reconnected U4 pin 17 from /[04] - MCU/ADC_TEMP to ADC_TEMP.
-Reconnected U4 pin 62 from /[04] - MCU/CAN_TX to CAN_TX.
-Updated D12 sheetname to '/[04] - MCU/'.
-Reconnected U5 pin 28 from ADC_TEMP to GND.
-Reconnected U5 pin 8 from ADC_TEMP to GND.
-Reconnected U5 pin 10 from ADC_TEMP to GND.
-Reconnected U5 pin 57 from ADC_TEMP to GND.
-Updated D12 sheetfile to 'MCU.kicad_sch'.
-Reconnected U6 pin 1 from ADC_TEMP to GND.
-Updated D12 footprint filters to 'D*SOD?323*'.
-Reconnected U7 pin 3 from ADC_TEMP to GND.
-Connected D12 pin 1 to +3V3.
-Add net /[04] - MCU/+3V3_COM.
-Reconnected U9 pin 2 from ADC_TEMP to GND.
-Connected D12 pin 2 to /[04] - MCU/+3V3_COM.
-Reconnected U10 pin 1 from ADC_TEMP to GND.
-Added D13 (footprint 'Diode_SMD:D_SOD-323').
-Reconnected U11 pin B1A12 from ADC_TEMP to GND.
-Reconnected U11 pin A1B12 from ADC_TEMP to GND.
-Changed REF** reference designator to D13.
-Removed unused net /[04] - MCU/BR_SO1.
-Removed unused net /[04] - MCU/BR_SO2.
-Removed unused net /[04] - MCU/CAN_RX.
-Removed unused net /[04] - MCU/CAN_TX.
-Removed unused net /[04] - MCU/DC_CAL.
-Removed unused net /[04] - MCU/EN_GATE.
-Removed unused net /[04] - MCU/FAULT.
-Removed unused net /[04] - MCU/H1.
-Removed unused net /[04] - MCU/H2.
-Removed unused net /[04] - MCU/H3.
-Removed unused net /[04] - MCU/L1.
-Removed unused net /[04] - MCU/L2.
-Removed unused net /[04] - MCU/L3.
-Removed unused net /[04] - MCU/SENS1.
-Removed unused net /[04] - MCU/SENS2.
-Removed unused net /[04] - MCU/SENS3.
-Removed unused net /[04] - MCU/TEMP_MOTOR.
-Removed unused net Net-(J3-Pin_3).
-Removed unused net unconnected-(J2-Pin_6-Pad6).
+Changed J2 footprint from 'DF_ESC_rev01_1:CONN-SMD_6P-P2.50_DEALON_XH-6PWB' to 'DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
+Changed J2 reference designator to J4.
+Updated J4 fields.
+Changed J3 reference designator to J5.
+Add net Net-(J5-Pad3).
+Reconnected J5 pin 3 from Net-(J3-Pad3) to Net-(J5-Pad3).
+Add net unconnected-(J5-Pad5).
+Reconnected J5 pin 5 from unconnected-(J3-Pad5) to unconnected-(J5-Pad5).
+Add net unconnected-(J5-Pad4).
+Reconnected J5 pin 4 from unconnected-(J3-Pad4) to unconnected-(J5-Pad4).
+Changed J4 reference designator to J6.
+Changed J5 reference designator to J7.
+Changed J6 reference designator to J8.
+Changed U6 footprint from 'DF_ESC_rev01_1:CONN-SMD_S4B-XH-SM4-TB-LF-SN' to 'DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
+Changed U6 reference designator to J9.
+Updated J9 fields.
+Changed U10 footprint from 'DF_ESC_rev01_1:CONN-SMD_6P-P2.50_DEALON_XH-6PWB' to 'DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ'.
+Changed U10 reference designator to J10.
+Updated J10 fields.
+Changed U11 reference designator to J11.
+Add net Net-(J11-EH-Pad1).
+Reconnected J11 pin 2 from Net-(R56-Pad2) to Net-(J11-EH-Pad1).
+Reconnected J11 pin 1 from Net-(R56-Pad2) to Net-(J11-EH-Pad1).
+Reconnected J11 pin 3 from Net-(R56-Pad2) to Net-(J11-EH-Pad1).
+Add net unconnected-(J11-SBU2-PadB8).
+Reconnected J11 pin B8 from unconnected-(U11-SBU2-PadB8) to unconnected-(J11-SBU2-PadB8).
+Reconnected J11 pin 4 from Net-(R56-Pad2) to Net-(J11-EH-Pad1).
+Add net unconnected-(J11-SBU1-PadA8).
+Reconnected J11 pin A8 from unconnected-(U11-SBU1-PadA8) to unconnected-(J11-SBU1-PadA8).
+Changed Q1 footprint from 'DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL' to 'Package_SO:PowerPAK_SO-8_Single'.
+Updated Q1 fields.
+Changed Q2 footprint from 'DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL' to 'Package_SO:PowerPAK_SO-8_Single'.
+Updated Q2 fields.
+Changed Q3 footprint from 'DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL' to 'Package_SO:PowerPAK_SO-8_Single'.
+Updated Q3 fields.
+Changed Q4 footprint from 'DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL' to 'Package_SO:PowerPAK_SO-8_Single'.
+Updated Q4 fields.
+Changed Q5 footprint from 'DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL' to 'Package_SO:PowerPAK_SO-8_Single'.
+Updated Q5 fields.
+Changed Q6 footprint from 'DF_ESC_rev01_1:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL' to 'Package_SO:PowerPAK_SO-8_Single'.
+Updated Q6 fields.
+Changed R67 reference designator to R1.
+Changed R10 reference designator to R8.
+Reconnected R8 pin 2 from Net-(D7-A) to Net-(D8-A).
+Changed R11 reference designator to R9.
+Changed R40 reference designator to R37.
+Changed R22 reference designator to R19.
+Changed R41 reference designator to R38.
+Changed R12 reference designator to R10.
+Changed R42 reference designator to R39.
+Changed R23 reference designator to R20.
+Changed R43 reference designator to R40.
+Changed R15 reference designator to R13.
+Changed R44 reference designator to R41.
+Changed R24 reference designator to R21.
+Changed R45 reference designator to R42.
+Add net Net-(R42-Pad2).
+Reconnected R42 pin 2 from Net-(R45-Pad2) to Net-(R42-Pad2).
+Reconnected R13 pin 2 from Net-(J3-Pad3) to Net-(J5-Pad3).
+Changed R46 reference designator to R43.
+Add net Net-(R43-Pad2).
+Reconnected R43 pin 2 from Net-(R46-Pad2) to Net-(R43-Pad2).
+Changed R25 reference designator to R22.
+Changed R47 reference designator to R44.
+Add net Net-(U6-Rs).
+Reconnected R44 pin 1 from Net-(U9-Rs) to Net-(U6-Rs).
+Changed R13 reference designator to R11.
+Changed R48 reference designator to R45.
+Changed R26 reference designator to R23.
+Changed R49 reference designator to R46.
+Changed R17 reference designator to R14.
+Changed R50 reference designator to R47.
+Changed R27 reference designator to R24.
+Changed R51 reference designator to R48.
+Reconnected R14 pin 1 from Net-(C28-Pad2) to Net-(C26-Pad2).
+Changed R52 reference designator to R49.
+Changed R28 reference designator to R25.
+Changed R53 reference designator to R50.
+Reconnected R11 pin 2 from Net-(D8-A) to Net-(D10-A).
+Changed R54 reference designator to R51.
+Changed R29 reference designator to R26.
+Changed R55 reference designator to R52.
+Changed R18 reference designator to R15.
+Changed R56 reference designator to R53.
+Reconnected R53 pin 2 from Net-(R56-Pad2) to Net-(J11-EH-Pad1).
+Changed R30 reference designator to R27.
+Changed R57 reference designator to R54.
+Reconnected R54 pin 2 from Net-(R56-Pad2) to Net-(J11-EH-Pad1).
+Add net Net-(U3-DTC).
+Changed R58 reference designator to R55.
+Changed R31 reference designator to R28.
+Changed R59 reference designator to R56.
+Reconnected R15 pin 2 from Net-(U5-DTC) to Net-(U3-DTC).
+Changed R60 reference designator to R57.
+Changed R32 reference designator to R29.
+Changed R61 reference designator to R58.
+Reconnected R10 pin 1 from Net-(C16-Pad1) to Net-(C15-Pad1).
+Changed R62 reference designator to R59.
+Changed R33 reference designator to R30.
+Changed R63 reference designator to R60.
+Changed R19 reference designator to R16.
+Changed R64 reference designator to R61.
+Changed R34 reference designator to R31.
+Changed R65 reference designator to R62.
+Changed R14 reference designator to R12.
+Changed R66 reference designator to R63.
+Changed R35 reference designator to R32.
+Changed R20 reference designator to R17.
+Changed R36 reference designator to R33.
+Add net Net-(U2-BOOT0).
+Changed U3 reference designator to U1.
+Changed R37 reference designator to R34.
+Changed U4 reference designator to U2.
+Add net unconnected-(U2-VBAT-Pad1).
+Reconnected U2 pin 1 from unconnected-(U4-VBAT-Pad1) to unconnected-(U2-VBAT-Pad1).
+Add net unconnected-(U2-PB3-Pad55).
+Reconnected U2 pin 55 from unconnected-(U4-PB3-Pad55) to unconnected-(U2-PB3-Pad55).
+Reconnected U2 pin 60 from Net-(U4-BOOT0) to Net-(U2-BOOT0).
+Add net unconnected-(U2-PC3-Pad11).
+Reconnected U2 pin 11 from unconnected-(U4-PC3-Pad11) to unconnected-(U2-PC3-Pad11).
+Add net unconnected-(U2-PD2-Pad54).
+Reconnected U2 pin 54 from unconnected-(U4-PD2-Pad54) to unconnected-(U2-PD2-Pad54).
+Add net unconnected-(U2-PB2-Pad28).
+Reconnected U2 pin 28 from unconnected-(U4-PB2-Pad28) to unconnected-(U2-PB2-Pad28).
+Add net unconnected-(U2-PA15-Pad50).
+Reconnected U2 pin 50 from unconnected-(U4-PA15-Pad50) to unconnected-(U2-PA15-Pad50).
+Add net unconnected-(U2-PC14-Pad3).
+Reconnected U2 pin 3 from unconnected-(U4-PC14-Pad3) to unconnected-(U2-PC14-Pad3).
+Reconnected U2 pin 47 from Net-(U4-VCAP_2) to Net-(U2-VCAP_2).
+Add net unconnected-(U2-PC13-Pad2).
+Reconnected U2 pin 2 from unconnected-(U4-PC13-Pad2) to unconnected-(U2-PC13-Pad2).
+Add net unconnected-(U2-PB4-Pad56).
+Reconnected U2 pin 56 from unconnected-(U4-PB4-Pad56) to unconnected-(U2-PB4-Pad56).
+Add net unconnected-(U2-PC1-Pad9).
+Reconnected U2 pin 9 from unconnected-(U4-PC1-Pad9) to unconnected-(U2-PC1-Pad9).
+Add net unconnected-(U2-PC15-Pad4).
+Reconnected U2 pin 4 from unconnected-(U4-PC15-Pad4) to unconnected-(U2-PC15-Pad4).
+Add net unconnected-(U2-PC9-Pad40).
+Reconnected U2 pin 40 from unconnected-(U4-PC9-Pad40) to unconnected-(U2-PC9-Pad40).
+Reconnected U2 pin 31 from Net-(U4-VCAP_1) to Net-(U2-VCAP_1).
+Add net unconnected-(U2-PC8-Pad39).
+Reconnected U2 pin 39 from unconnected-(U4-PC8-Pad39) to unconnected-(U2-PC8-Pad39).
+Reconnected U2 pin 13 from Net-(U4-VDDA) to Net-(U2-VDDA).
+Changed R21 reference designator to R18.
+Changed U5 reference designator to U3.
+Reconnected U3 pin 7 from Net-(U5-DTC) to Net-(U3-DTC).
+Add net unconnected-(U3-SS_TR-Pad56).
+Reconnected U3 pin 56 from unconnected-(U5-SS_TR-Pad56) to unconnected-(U3-SS_TR-Pad56).
+Reconnected U3 pin 15 from Net-(U5-CP2) to Net-(U3-CP2).
+Add net unconnected-(U3-EN_BUCK-Pad55).
+Reconnected U3 pin 55 from unconnected-(U5-EN_BUCK-Pad55) to unconnected-(U3-EN_BUCK-Pad55).
+Add net unconnected-(U3-*OCTW-Pad5).
+Reconnected U3 pin 5 from unconnected-(U5-*OCTW-Pad5) to unconnected-(U3-*OCTW-Pad5).
+Reconnected U3 pin 14 from Net-(U5-CP1) to Net-(U3-CP1).
+Reconnected U3 pin 27 from Net-(U5-AVDD) to Net-(U3-AVDD).
+Add net unconnected-(U3-PWRGD-Pad4).
+Reconnected U3 pin 4 from unconnected-(U5-PWRGD-Pad4) to unconnected-(U3-PWRGD-Pad4).
+Reconnected U3 pin 13 from Net-(U5-GVDD) to Net-(U3-GVDD).
+Changed R38 reference designator to R35.
+Changed U7 reference designator to U4.
+Reconnected R12 pin 2 from Net-(U4-BOOT0) to Net-(U2-BOOT0).
+Changed U8 reference designator to U5.
+Reconnected U5 pin 2 from Net-(R45-Pad2) to Net-(R42-Pad2).
+Reconnected U5 pin 1 from Net-(R46-Pad2) to Net-(R43-Pad2).
+Changed R39 reference designator to R36.
+Changed U9 reference designator to U6.
+Add net unconnected-(U6-Vref-Pad5).
+Reconnected U6 pin 5 from unconnected-(U9-Vref-Pad5) to unconnected-(U6-Vref-Pad5).
+Reconnected U6 pin 8 from Net-(U9-Rs) to Net-(U6-Rs).
+Reconnected R9 pin 2 from Net-(C15-Pad1) to Net-(C14-Pad1).
+Changed TH2 reference designator to TH1.
+Reconnected Y1 pin 2 from Net-(C16-Pad1) to Net-(C15-Pad1).
+Removed unused net Net-(C16-Pad1).
+Removed unused net Net-(C28-Pad2).
+Removed unused net Net-(D7-A).
+Removed unused net Net-(J3-Pad3).
+Removed unused net Net-(R45-Pad2).
+Removed unused net Net-(R46-Pad2).
+Removed unused net Net-(R56-Pad2).
+Removed unused net Net-(U4-BOOT0).
+Removed unused net Net-(U4-VCAP_1).
+Removed unused net Net-(U4-VCAP_2).
+Removed unused net Net-(U4-VDDA).
+Removed unused net Net-(U5-AVDD).
+Removed unused net Net-(U5-CP1).
+Removed unused net Net-(U5-CP2).
+Removed unused net Net-(U5-DTC).
+Removed unused net Net-(U5-GVDD).
+Removed unused net Net-(U9-Rs).
+Removed unused net unconnected-(J3-Pad4).
+Removed unused net unconnected-(J3-Pad5).
+Removed unused net unconnected-(U1-Pad3).
+Removed unused net unconnected-(U1-Pad4).
+Removed unused net unconnected-(U11-SBU1-PadA8).
+Removed unused net unconnected-(U11-SBU2-PadB8).
+Removed unused net unconnected-(U2-Pad3).
+Removed unused net unconnected-(U2-Pad4).
+Removed unused net unconnected-(U4-PA15-Pad50).
+Removed unused net unconnected-(U4-PB2-Pad28).
+Removed unused net unconnected-(U4-PB3-Pad55).
+Removed unused net unconnected-(U4-PB4-Pad56).
+Removed unused net unconnected-(U4-PC1-Pad9).
+Removed unused net unconnected-(U4-PC13-Pad2).
+Removed unused net unconnected-(U4-PC14-Pad3).
+Removed unused net unconnected-(U4-PC15-Pad4).
+Removed unused net unconnected-(U4-PC3-Pad11).
+Removed unused net unconnected-(U4-PC8-Pad39).
+Removed unused net unconnected-(U4-PC9-Pad40).
+Removed unused net unconnected-(U4-PD2-Pad54).
+Removed unused net unconnected-(U4-VBAT-Pad1).
+Removed unused net unconnected-(U5-*OCTW-Pad5).
+Removed unused net unconnected-(U5-EN_BUCK-Pad55).
+Removed unused net unconnected-(U5-PWRGD-Pad4).
+Removed unused net unconnected-(U5-SS_TR-Pad56).
+Removed unused net unconnected-(U9-Vref-Pad5).
 
 
-Reconnected U4 pin 42 from /[04] - MCU/H2 to H2.
-Error: H3 pad 1 not found in MountingHole:MountingHole_3.2mm_M3.
-Error: H4 pad 1 not found in MountingHole:MountingHole_3.2mm_M3.
-Error: U6 pad 5 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
-Error: U6 pad 6 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
-Error: U10 pad 6 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
-Error: U10 pad 5 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
-Error: U10 pad 7 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
-Error: U10 pad 8 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
-Error: H1 pad 1 not found in MountingHole:MountingHole_3.2mm_M3.
-Error: H2 pad 1 not found in MountingHole:MountingHole_3.2mm_M3.
+Reconnected Y1 pin 1 from Net-(C15-Pad1) to Net-(C14-Pad1).
+Error: J9 pad 6 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J10 pad 6 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J10 pad 5 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J10 pad 7 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J10 pad 8 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: Cannot update U5 (footprint 'footprint:FILTER-SMD_4P-L9.2-W6.0-P2.54-TL' not found).
+Error: J3 pad 7 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J3 pad 6 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J3 pad 5 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J3 pad 8 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J3 pad 9 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J3 pad 10 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J4 pad 6 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J4 pad 5 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J4 pad 7 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J4 pad 8 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
+Error: J9 pad 5 not found in DF_ESC_rev01_1:CONN-SMD_XH-2PWBPZ.
 
 
-Info: Total warnings: 0, errors: 10.
+Info: Total warnings: 0, errors: 17.

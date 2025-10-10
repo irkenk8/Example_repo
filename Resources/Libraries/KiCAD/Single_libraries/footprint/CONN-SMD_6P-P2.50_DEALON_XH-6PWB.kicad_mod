@@ -6,18 +6,18 @@
 	(descr "CONN-SMD_6P-P2.50_DEALON_XH-6PWB footprint")
 	(tags "CONN-SMD_6P-P2.50_DEALON_XH-6PWB footprint C2905028")
 	(property "Reference" "REF**"
-		(at -0.040005 -5.599949 0)
+		(at 12.05 -1.45 0)
 		(layer "F.SilkS")
 		(uuid "90080cc6-a036-4322-aa34-683c43416163")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "CONN-SMD_6P-P2.50_DEALON_XH-6PWB"
-		(at -0.040005 7.200076 0)
+		(at 0 1.3 0)
 		(layer "F.Fab")
 		(uuid "5dce8e2f-021b-4a53-afd5-eb4252afec99")
 		(effects
@@ -224,8 +224,8 @@
 		(layer "F.Fab")
 		(uuid "b7a2b586-514a-4ac3-babc-e9492e6faf4e")
 	)
-	(fp_text user "REF**"
-		(at -0.040005 9.200076 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.3 0)
 		(layer "F.Fab")
 		(uuid "a310157c-72e8-4690-a399-4598f0c5d7d6")
 		(effects

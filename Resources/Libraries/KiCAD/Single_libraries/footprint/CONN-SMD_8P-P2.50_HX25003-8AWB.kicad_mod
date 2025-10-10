@@ -6,18 +6,18 @@
 	(descr "CONN-SMD_8P-P2.50_HX25003-8AWB footprint")
 	(tags "CONN-SMD_8P-P2.50_HX25003-8AWB footprint C442367")
 	(property "Reference" "REF**"
-		(at -0.010414 -5.5 0)
+		(at 13.05 -4.25 0)
 		(layer "F.SilkS")
 		(uuid "a9255f12-0187-4e89-ba0e-d6cc79241afb")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "CONN-SMD_8P-P2.50_HX25003-8AWB"
-		(at -0.010414 7.300051 0)
+		(at 0 2 0)
 		(layer "F.Fab")
 		(uuid "39f32779-10a1-4345-8c5a-d66729df4ca0")
 		(effects
@@ -184,8 +184,8 @@
 		(layer "F.Fab")
 		(uuid "9d0d0521-a379-4375-a566-857828579c74")
 	)
-	(fp_text user "REF**"
-		(at -0.010414 9.300051 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
 		(layer "F.Fab")
 		(uuid "201111b6-a460-43ff-ad93-eb0e22feee99")
 		(effects

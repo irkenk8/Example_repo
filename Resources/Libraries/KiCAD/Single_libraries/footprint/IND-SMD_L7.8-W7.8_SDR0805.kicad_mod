@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "IND-SMD_L7.8-W7.8_SDR0805"
-		(at 0 6.150013 0)
+		(at 0 1.5 0)
 		(layer "F.Fab")
 		(uuid "5bd349bb-2dab-41db-99db-088bb428e080")
 		(effects
@@ -83,8 +83,8 @@
 		(layer "F.SilkS")
 		(uuid "583186d9-1f33-4335-bf78-09e6561c928f")
 	)
-	(fp_text user "REF**"
-		(at 0 8.150013 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
 		(layer "F.Fab")
 		(uuid "544091dd-351e-4f26-a972-f508c8632697")
 		(effects
@@ -108,7 +108,6 @@
 	)
 	(embedded_fonts no)
 	(model "packages3d/IND-SMD_L7.8-W7.8_SDR0805.step"
-		(opacity 0.7500)
 		(offset
 			(xyz 0 0 0)
 		)

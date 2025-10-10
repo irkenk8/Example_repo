@@ -213,7 +213,7 @@
 		(layer "F.SilkS")
 		(uuid "ce9174bd-3b93-4858-975d-a7fb72c1a63e")
 	)
-	(fp_text user "REF**"
+	(fp_text user "${REFERENCE}"
 		(at 0 5.4 0)
 		(layer "F.Fab")
 		(uuid "f0f7203b-e62a-4ca7-b93f-f6932f62c92a")

@@ -6,18 +6,18 @@
 	(descr "FILTER-SMD_4P-L9.2-W6.0-P2.54-TL footprint")
 	(tags "FILTER-SMD_4P-L9.2-W6.0-P2.54-TL footprint C2651119")
 	(property "Reference" "REF**"
-		(at 0 -5 0)
+		(at 0 -4.25 0)
 		(layer "F.SilkS")
 		(uuid "51bcbdeb-7adc-4851-bc06-f3026e0f387f")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "FILTER-SMD_4P-L9.2-W6.0-P2.54-TL"
-		(at 0 5 0)
+		(at 0 6.2 0)
 		(layer "F.Fab")
 		(uuid "bd84791c-f6eb-478f-93d3-577eebecf0b8")
 		(effects
@@ -156,17 +156,17 @@
 	)
 	(fp_circle
 		(center -3.65 -2.3)
-		(end -3.450101 -2.3)
+		(end -3.525 -2.3)
 		(stroke
-			(width 0.4)
+			(width 0.25)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
 		(uuid "b471f5c8-f145-4321-9bc4-30682bbba222")
 	)
-	(fp_text user "REF**"
-		(at 0 7 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.2 0)
 		(layer "F.Fab")
 		(uuid "935e2d20-dcfa-484f-a54a-541cf88af9b4")
 		(effects
