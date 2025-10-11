@@ -4575,16 +4575,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 85.09) (xy 181.61 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "204c5923-0be0-4c1a-8bf7-da9a29f9d336")
-	)
-	(wire
-		(pts
 			(xy 73.66 77.47) (xy 80.01 77.47)
 		)
 		(stroke
@@ -4672,6 +4662,16 @@
 			(type dash)
 		)
 		(uuid "28cf6df6-7316-4355-9fcc-3ded778cc432")
+	)
+	(wire
+		(pts
+			(xy 181.61 82.55) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad781e0-86b7-45a7-b393-c8f28d7768e8")
 	)
 	(wire
 		(pts
@@ -4895,7 +4895,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 99.06) (xy 43.18 99.06)
+			(xy 33.02 99.06) (xy 41.91 99.06)
 		)
 		(stroke
 			(width 0.5)
@@ -5272,16 +5272,6 @@
 			(type dash)
 		)
 		(uuid "73e99a9f-e77c-42f9-86d2-a27dfed8697f")
-	)
-	(wire
-		(pts
-			(xy 184.15 82.55) (xy 181.61 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73fc2c97-d63d-4791-a393-da9000843b16")
 	)
 	(wire
 		(pts
@@ -6005,7 +5995,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 95.25) (xy 43.18 95.25)
+			(xy 33.02 95.25) (xy 41.91 95.25)
 		)
 		(stroke
 			(width 0.5)
@@ -6062,6 +6052,16 @@
 			(type default)
 		)
 		(uuid "db44e5d4-6797-4155-a4eb-bc9c112ea784")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 190.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbddcb6-2fef-4e72-8186-e19147243ac1")
 	)
 	(wire
 		(pts
@@ -6426,8 +6426,8 @@
 		)
 		(uuid "081b7c4a-4eb6-49ab-b381-075e371edf91")
 	)
-	(label "USB_N"
-		(at 43.18 95.25 0)
+	(label "USB_DN"
+		(at 41.91 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6821,7 +6821,7 @@
 		)
 		(uuid "625fad59-bbfd-4482-89b0-28a01136aeba")
 	)
-	(label "USB_DM"
+	(label "USB_DN"
 		(at 184.15 82.55 0)
 		(effects
 			(font
@@ -6975,8 +6975,8 @@
 		)
 		(uuid "8b59a7e1-edda-4a6e-9184-0549b01048f7")
 	)
-	(label "USB_P"
-		(at 43.18 99.06 0)
+	(label "USB_DP"
+		(at 41.91 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7469,9 +7469,9 @@
 			)
 		)
 	)
-	(global_label "USB_P"
+	(global_label "USB_DP"
 		(shape bidirectional)
-		(at 31.75 99.06 180)
+		(at 33.02 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7483,7 +7483,7 @@
 		)
 		(uuid "524a9b7f-8deb-44ed-9dd2-bf072f21e167")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.8717 99.06 0)
+			(at 21.1301 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,9 +7517,9 @@
 			)
 		)
 	)
-	(global_label "USB_N"
+	(global_label "USB_DN"
 		(shape bidirectional)
-		(at 31.75 95.25 180)
+		(at 33.02 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7531,7 +7531,7 @@
 		)
 		(uuid "741c8e5a-47f2-4cff-941e-62122f2d79ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.8717 95.25 0)
+			(at 21.0696 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

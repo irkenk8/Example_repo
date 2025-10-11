@@ -1215,6 +1215,19 @@
 		)
 		(uuid "00107f41-9524-48b7-9379-1c3a51f9a8dd")
 	)
+	(text "ROUTE AS DIFFERENTIAL PAIR"
+		(exclude_from_sim no)
+		(at 247.65 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "02dc63c6-b20e-416f-acad-a8e1f903ae05")
+	)
 	(text "ROUTE AS \nDIFFERENTIAL\nPAIR"
 		(exclude_from_sim no)
 		(at 121.92 107.95 0)
@@ -1253,6 +1266,19 @@
 			(justify left)
 		)
 		(uuid "8c8dee8a-5f25-41d4-bd5c-b52d70026e83")
+	)
+	(text "USB TO MCU"
+		(exclude_from_sim no)
+		(at 248.158 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a9e3253c-d337-4897-90a4-9c8a9adb0907")
 	)
 	(text "PULL-DOWN\nTELL THE HOST WE ARE UFP.\nONLY ONE USED AT GIVEN TIME.\nBOTH NECESSARY FOR REVERSIBILITY."
 		(exclude_from_sim no)
@@ -1439,6 +1465,26 @@
 		)
 		(uuid "0d8b6547-9e24-4401-b5a7-5d2afb319784")
 	)
+	(polyline
+		(pts
+			(xy 246.38 62.23) (xy 246.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "100616cf-c653-4f33-8549-bb8fe494c6ab")
+	)
+	(wire
+		(pts
+			(xy 264.16 68.58) (xy 255.27 68.58)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "13266ad6-4262-4e0b-a226-8ca62d21cae6")
+	)
 	(wire
 		(pts
 			(xy 187.96 105.41) (xy 190.5 105.41)
@@ -1539,6 +1585,26 @@
 		)
 		(uuid "28126d7c-793b-4900-affb-04a5cd39eb80")
 	)
+	(wire
+		(pts
+			(xy 207.01 81.28) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "2a3981a8-f7ec-4b5e-b1e2-990abc79a826")
+	)
+	(polyline
+		(pts
+			(xy 276.86 77.47) (xy 276.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2da520e6-f571-409a-a2d0-0d4d12d6349a")
+	)
 	(polyline
 		(pts
 			(xy 224.79 124.46) (xy 224.79 91.44)
@@ -1609,15 +1675,15 @@
 		)
 		(uuid "49b374ea-42f9-43cb-a568-bbaa3e64ff78")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 215.9 81.28) (xy 207.01 81.28)
+			(xy 246.38 77.47) (xy 276.86 77.47)
 		)
 		(stroke
-			(width 0.5)
-			(type default)
+			(width 0)
+			(type dash)
 		)
-		(uuid "4d6ac482-f125-4ed0-8820-120137f79597")
+		(uuid "4b510040-d416-4cce-a644-7ad0ee4be05c")
 	)
 	(polyline
 		(pts
@@ -1671,6 +1737,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 74.93) (xy 218.44 74.93)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "5e30d287-d4bf-4916-be6d-a052cf656db4")
+	)
+	(wire
+		(pts
 			(xy 91.44 133.35) (xy 100.33 133.35)
 		)
 		(stroke
@@ -1691,6 +1767,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 72.39) (xy 255.27 72.39)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "68d9aa1d-c0d0-4b87-8742-fd346e6d1116")
+	)
+	(wire
+		(pts
 			(xy 100.33 114.3) (xy 102.87 114.3)
 		)
 		(stroke
@@ -1698,16 +1784,6 @@
 			(type default)
 		)
 		(uuid "69c4f744-078e-4f95-bd36-66667cab471d")
-	)
-	(wire
-		(pts
-			(xy 207.01 74.93) (xy 215.9 74.93)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "69d83cbf-d6a1-4d54-9e19-9e29bce4f003")
 	)
 	(polyline
 		(pts
@@ -1854,7 +1930,7 @@
 			(xy 189.23 81.28) (xy 199.39 81.28)
 		)
 		(stroke
-			(width 0.5)
+			(width 0.508)
 			(type default)
 		)
 		(uuid "97550791-69a6-4d10-861f-c1d462d47662")
@@ -1964,7 +2040,7 @@
 			(xy 189.23 74.93) (xy 199.39 74.93)
 		)
 		(stroke
-			(width 0.5)
+			(width 0.508)
 			(type default)
 		)
 		(uuid "c3b29162-3098-4bce-b803-8944743c7cce")
@@ -2061,6 +2137,16 @@
 	)
 	(polyline
 		(pts
+			(xy 276.86 62.23) (xy 246.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f68e3d8e-75d3-43db-8b88-cbf3610e6286")
+	)
+	(polyline
+		(pts
 			(xy 100.33 68.58) (xy 100.33 60.96)
 		)
 		(stroke
@@ -2079,6 +2165,17 @@
 		)
 		(uuid "fe2b9cbf-8235-4c3d-af07-65cffe5b2cb2")
 	)
+	(label "USB_DN"
+		(at 212.09 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "06814be2-ddd0-4fe2-81f2-8ad3fd666557")
+	)
 	(label "USB-C_N"
 		(at 123.19 95.25 0)
 		(effects
@@ -2089,15 +2186,15 @@
 		)
 		(uuid "24ee26ba-65c7-4c62-bd65-e189bcc1b24b")
 	)
-	(label "USB_P"
-		(at 215.9 81.28 0)
+	(label "USB_DP"
+		(at 255.27 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "29a08613-0d38-47ea-9ec9-1229beea4a3d")
+		(uuid "3f0e6756-74de-41b9-95fc-0cb9a3d64a64")
 	)
 	(label "+5V-C"
 		(at 115.57 78.74 0)
@@ -2119,15 +2216,15 @@
 		)
 		(uuid "5a07aa01-311c-4598-b880-945dc36d6d79")
 	)
-	(label "USB_N"
-		(at 215.9 74.93 0)
+	(label "USB_DN"
+		(at 255.27 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "6b88ec75-8f2d-4593-b791-3c706066f622")
+		(uuid "5cc87a11-408c-484f-b8f0-b01e6d7d3b90")
 	)
 	(label "CC1"
 		(at 115.57 86.36 0)
@@ -2138,6 +2235,17 @@
 			(justify left bottom)
 		)
 		(uuid "6e296587-467d-4aa4-9012-3997c476039d")
+	)
+	(label "USB_DP"
+		(at 212.09 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "96988db2-b2ed-4012-b92d-fb5aaf29dd1b")
 	)
 	(label "+5V-C"
 		(at 210.82 101.6 0)
@@ -2228,6 +2336,54 @@
 			(justify left bottom)
 		)
 		(uuid "ef6b7694-588c-4f75-858e-06a280342252")
+	)
+	(global_label "USB_DP"
+		(shape bidirectional)
+		(at 264.16 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0201987d-f9a9-464d-89dd-7d6c06a1b430")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.0499 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DN"
+		(shape bidirectional)
+		(at 264.16 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d7574b3b-940e-46aa-9746-907879494458")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.1104 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

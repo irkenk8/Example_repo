@@ -2312,6 +2312,26 @@
 		)
 		(uuid "3d6aa767-08d6-4b11-aa0c-529b1c75e6b2")
 	)
+	(label "R_CAN_P"
+		(at 132.08 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "673c8177-ac22-49ed-b118-156a62db5358")
+	)
+	(label "R_CAN_N"
+		(at 132.08 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6caa8e2e-d93d-40b4-aaec-6b1564892bfd")
+	)
 	(label "C_CAN_P"
 		(at 69.85 100.33 0)
 		(effects
