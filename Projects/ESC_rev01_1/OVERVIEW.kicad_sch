@@ -2206,16 +2206,6 @@
 		)
 		(uuid "4a163fbc-7f31-4d84-91ca-27dd3bf56f3d")
 	)
-	(label "USB-C_P"
-		(at 210.82 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a07aa01-311c-4598-b880-945dc36d6d79")
-	)
 	(label "USB_DN"
 		(at 255.27 68.58 180)
 		(effects
@@ -2225,6 +2215,16 @@
 			(justify right bottom)
 		)
 		(uuid "5cc87a11-408c-484f-b8f0-b01e6d7d3b90")
+	)
+	(label "USB-C_N"
+		(at 210.82 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dd69629-f98a-47ce-ba73-1a1afee2f5b4")
 	)
 	(label "CC1"
 		(at 115.57 86.36 0)
@@ -2257,16 +2257,6 @@
 		)
 		(uuid "a42a600e-3477-4724-baf6-02a5f6e351ca")
 	)
-	(label "USB-C_N"
-		(at 210.82 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8f8f21d-37ab-4ab6-883c-a1705eb263d2")
-	)
 	(label "USB-C_P"
 		(at 123.19 100.33 0)
 		(effects
@@ -2286,6 +2276,16 @@
 			(justify left bottom)
 		)
 		(uuid "c107bfb6-2a36-480e-8ce4-d7d0325865de")
+	)
+	(label "USB-C_P"
+		(at 210.82 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc406f7b-540e-4cd5-bde8-f94f91d648c2")
 	)
 	(label "CC2"
 		(at 210.82 99.06 0)
