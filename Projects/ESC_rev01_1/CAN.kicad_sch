@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "8d965bef-3e05-4d6b-9122-b692a844c0f1")
 	(paper "A4")
+	(title_block
+		(title "DF_ESC_rev01_1")
+		(rev "01_1")
+		(comment 1 "Irina Kenko")
+		(comment 3 "irkenk8@gmail.com")
+		(comment 4 "Irina Kenko")
+		(comment 5 "irkenk8@gmail.com")
+	)
 	(lib_symbols
 		(symbol "744227S:744227S"
 			(exclude_from_sim no)
@@ -304,207 +312,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DF_ESC_rev01_1:Conn_01x04_2mnt"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 5.08 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_2mnt"
-				(at 12.954 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint:CONN-SMD_XH-2PWBPZ"
-				(at 0 -14.986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/2791035.html"
-				(at -17.018 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2687444"
-				(at 0 -18.288 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C2687444"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_2mnt_0_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -3.81 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -6.35 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 6.35 270)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -11.43 90)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1 1)
@@ -1235,6 +1042,207 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KeIr_sch_lib:Conn_01x04_2mnt"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_2mnt"
+				(at 12.954 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KeIr_lib:CONN-SMD_S4B-XH-SM4-TB-LF-SN"
+				(at 0 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/2791035.html"
+				(at -17.018 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2687444"
+				(at 0 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C2687444"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_2mnt_0_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -6.35 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 6.35 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -11.43 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -2435,7 +2443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "R"
 			(at 109.22 102.8699 0)
 			(effects
 				(font
@@ -2487,7 +2495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DF_ESC_rev01_1:Conn_01x04_2mnt")
+		(lib_id "KeIr_sch_lib:Conn_01x04_2mnt")
 		(at 66.04 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2514,7 +2522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_rev01_1:CONN-SMD_S4B-XH-SM4-TB-LF-SN"
+		(property "Footprint" "KeIr_lib:CONN-SMD_S4B-XH-SM4-TB-LF-SN"
 			(at 66.04 89.154 0)
 			(effects
 				(font
@@ -2589,7 +2597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25bff2e2-88a7-466e-bbfd-a34484491ad2")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR72"
 			(at 76.2 115.57 0)
 			(effects
 				(font
@@ -2639,7 +2647,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e32c040b-8a9b-40e1-ab88-651266d42ee1"
-					(reference "#PWR073")
+					(reference "#PWR72")
 					(unit 1)
 				)
 			)
@@ -2655,7 +2663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ca0aa97-eece-412c-b1d5-8b1ab71d9cf4")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR77"
 			(at 185.42 125.73 0)
 			(effects
 				(font
@@ -2705,7 +2713,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e32c040b-8a9b-40e1-ab88-651266d42ee1"
-					(reference "#PWR078")
+					(reference "#PWR77")
 					(unit 1)
 				)
 			)
@@ -2721,7 +2729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f495e59-9a78-4557-8de3-893fcd1efd07")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR74"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -2771,7 +2779,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e32c040b-8a9b-40e1-ab88-651266d42ee1"
-					(reference "#PWR075")
+					(reference "#PWR74")
 					(unit 1)
 				)
 			)
@@ -2787,7 +2795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b814939-2df3-46cb-ba40-cfe9e06276a2")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR76"
 			(at 185.42 74.93 0)
 			(effects
 				(font
@@ -2837,7 +2845,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e32c040b-8a9b-40e1-ab88-651266d42ee1"
-					(reference "#PWR077")
+					(reference "#PWR76")
 					(unit 1)
 				)
 			)
@@ -2862,7 +2870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 201.93 113.0299 0)
 			(effects
 				(font
@@ -2930,7 +2938,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "R"
 			(at 125.476 89.154 90)
 			(effects
 				(font
@@ -2990,7 +2998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f96cbfc-d12b-4d5d-8313-fed60a0c681b")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR78"
 			(at 198.12 90.17 0)
 			(effects
 				(font
@@ -3040,7 +3048,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e32c040b-8a9b-40e1-ab88-651266d42ee1"
-					(reference "#PWR079")
+					(reference "#PWR78")
 					(unit 1)
 				)
 			)
@@ -3065,7 +3073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60p"
+		(property "Value" "C"
 			(at 110.49 119.3799 0)
 			(effects
 				(font
@@ -3126,7 +3134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65d8b89e-30b6-4503-bb8f-2423c40b4b8a")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR75"
 			(at 111.76 80.01 0)
 			(effects
 				(font
@@ -3176,7 +3184,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e32c040b-8a9b-40e1-ab88-651266d42ee1"
-					(reference "#PWR076")
+					(reference "#PWR75")
 					(unit 1)
 				)
 			)
@@ -3192,7 +3200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e619f86-424b-49fb-b58b-18f619a660dc")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR71"
 			(at 76.2 96.52 0)
 			(effects
 				(font
@@ -3242,7 +3250,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e32c040b-8a9b-40e1-ab88-651266d42ee1"
-					(reference "#PWR072")
+					(reference "#PWR71")
 					(unit 1)
 				)
 			)
@@ -3273,7 +3281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF_ESC_rev01_1:FILTER-SMD_4P-L9.2-W6.0-P2.54-TL"
+		(property "Footprint" "KeIr_lib:FILTER-SMD_4P-L9.2-W6.0-P2.54-TL"
 			(at 143.51 111.76 0)
 			(effects
 				(font
@@ -3351,7 +3359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60p"
+		(property "Value" "C"
 			(at 110.49 86.3599 0)
 			(effects
 				(font
@@ -3429,7 +3437,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "DF_ESC_rev01_1:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+		(property "Footprint" "KeIr_lib:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
 			(at 91.44 111.76 0)
 			(effects
 				(font
@@ -3495,7 +3503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9709941-7687-4c5e-bc54-678327587791")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR79"
 			(at 199.39 125.73 0)
 			(effects
 				(font
@@ -3545,7 +3553,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e32c040b-8a9b-40e1-ab88-651266d42ee1"
-					(reference "#PWR080")
+					(reference "#PWR79")
 					(unit 1)
 				)
 			)
@@ -3570,7 +3578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "C"
 			(at 201.93 80.0099 0)
 			(effects
 				(font
@@ -3719,7 +3727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4c980eb-79d5-4765-bda9-d2c9984ba672")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR73"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -3769,7 +3777,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e32c040b-8a9b-40e1-ab88-651266d42ee1"
-					(reference "#PWR074")
+					(reference "#PWR73")
 					(unit 1)
 				)
 			)
@@ -3792,7 +3800,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "R"
 			(at 125.476 109.474 90)
 			(effects
 				(font

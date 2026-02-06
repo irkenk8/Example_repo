@@ -1,10 +1,10 @@
-(footprint "CAP-TH_BD16.0-P7.50-D1.2-FD"
+(footprint "CAPPRD750W80D1600H2500"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "CAP-TH_BD16.0-P7.50-D1.2-FD footprint")
-	(tags "CAP-TH_BD16.0-P7.50-D1.2-FD footprint C443097")
+	(descr "Capacitor, Polarized, Radial (Electrolytic); 0.8 mm lead 7.50 mm pitch X 16.00 mm dia. X 25.00 mm H body")
+	(tags "CAPPRD750W80D1600H2500 footprint LKMI2501K821MF")
 	(property "Reference" "REF**"
 		(at 0.000127 -9.05 0)
 		(layer "F.SilkS")
@@ -16,9 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "CAP-TH_BD16.0-P7.50-D1.2-FD"
+	(property "Value" "CAPPRD750W80D1600H2500"
 		(at 0 2.5 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "2f3ea250-e8dd-4b6b-a3fc-2b908dff1abf")
 		(effects
 			(font
@@ -39,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Capacitor, Polarized, Radial (Electrolytic); 0.8 mm lead 7.50 mm pitch X 16.00 mm dia. X 25.00 mm H body"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -51,10 +52,21 @@
 			)
 		)
 	)
+	(property "MPN" "LKMI2501K821MF"
+		(at 0.000127 2.5 0)
+		(layer "F.Fab")
+		(uuid "b6cfe183-eaff-41e5-9e04-1d9c9df4c02f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
-		(start -6.765735 0.533477)
-		(end -6.765735 -1.193726)
+		(start -6.55 1)
+		(end -6.55 -1)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -63,8 +75,8 @@
 		(uuid "bfec1b2f-3ce2-40ec-8809-39c6a1be52e8")
 	)
 	(fp_line
-		(start -5.876734 -0.304724)
-		(end -7.553137 -0.304724)
+		(start -5.55 0)
+		(end -7.55 0)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -85,7 +97,7 @@
 	)
 	(fp_circle
 		(center 0.000127 0)
-		(end 8.000127 0)
+		(end 8.150127 0)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -93,6 +105,37 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "feb90abc-43bd-46fa-b895-cd1cdb70bb52")
+	)
+	(fp_line
+		(start -6.55 1)
+		(end -6.55 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e31db5b-6124-4f19-b713-b1dfd7994b9a")
+	)
+	(fp_line
+		(start -5.55 0)
+		(end -7.55 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78ba496a-567f-4169-be86-d3992a560fca")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "903cb2c4-96c0-44dc-9763-d270150b05d6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.5 0)
@@ -107,18 +150,44 @@
 	)
 	(pad "1" thru_hole circle
 		(at -3.749936 0)
-		(size 2.2 2.2)
-		(drill 1.2)
+		(size 1.5 1.5)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_width 0.41)
+		(thermal_gap 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 1.5)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "298830ed-e83b-43aa-b198-b5ea05b24c53")
 	)
 	(pad "2" thru_hole circle
 		(at 3.749936 0)
-		(size 2.2 2.2)
-		(drill 1.2)
+		(size 1.5 1.5)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_width 0.41)
+		(thermal_gap 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 1.5)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "29bada37-c616-4b7e-acf2-e922ac3719b3")
 	)
 	(embedded_fonts no)

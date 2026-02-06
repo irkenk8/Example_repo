@@ -7,10 +7,12 @@
 	(title_block
 		(title "DF_ESC_rev01_1")
 		(date "2025-09-17")
-		(rev "01")
+		(rev "01_1")
 		(company "Fresu Electronics LLC")
+		(comment 1 "Irina Kenko")
 		(comment 3 "irkenk8@gmail.com")
 		(comment 4 "Irina Kenko")
+		(comment 5 "irkenk8@gmail.com")
 	)
 	(lib_symbols)
 	(text "REVISION: 01_1"

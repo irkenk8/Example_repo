@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "0a267c0d-c1fb-4152-ac62-bc39aae5ac89")
 	(paper "A4")
+	(title_block
+		(title "DF_ESC_rev01_1")
+		(rev "01_1")
+		(comment 1 "Irina Kenko")
+		(comment 3 "irkenk8@gmail.com")
+		(comment 4 "Irina Kenko")
+		(comment 5 "irkenk8@gmail.com")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -813,7 +821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "R"
 			(at 130.81 113.0299 0)
 			(effects
 				(font
@@ -950,7 +958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "R"
 			(at 130.81 82.5499 0)
 			(effects
 				(font
@@ -1020,7 +1028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "R"
 			(at 176.53 113.0299 0)
 			(effects
 				(font
@@ -1081,7 +1089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d66c97-68c0-4556-b4d2-dcb033d89e25")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR99"
 			(at 128.27 93.98 0)
 			(effects
 				(font
@@ -1131,7 +1139,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "#PWR0100")
+					(reference "#PWR99")
 					(unit 1)
 				)
 			)
@@ -1223,7 +1231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "R"
 			(at 176.53 82.5499 0)
 			(effects
 				(font
@@ -1284,7 +1292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f67813b-cb82-4b39-9cbe-513685e46dba")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR101"
 			(at 173.99 93.98 0)
 			(effects
 				(font
@@ -1334,7 +1342,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "#PWR0102")
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -1417,7 +1425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0deae39-b73d-4fb1-9977-235acec7c433")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR102"
 			(at 173.99 124.46 0)
 			(effects
 				(font
@@ -1467,7 +1475,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "#PWR0103")
+					(reference "#PWR102")
 					(unit 1)
 				)
 			)
@@ -1550,7 +1558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc60e000-75dd-4c16-9258-8d5ec12b8a30")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR100"
 			(at 128.27 124.46 0)
 			(effects
 				(font
@@ -1600,7 +1608,7 @@
 		(instances
 			(project "ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f0db8fa9-4626-4d2b-9dd9-5c3f1156b21e"
-					(reference "#PWR0101")
+					(reference "#PWR100")
 					(unit 1)
 				)
 			)
